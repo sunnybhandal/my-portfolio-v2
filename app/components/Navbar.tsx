@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="padding-container py-2 border-b-2 border-[#116D99]">
       <div className="flex justify-between">
-        <Image src="/logo.svg" alt="logo" width={30} height={30} />
+        <Image src="/logo.svg" alt="logo" width={35} height={30} />
         <div className="flex gap-6 items-center">
           {NAV_LINKS.map((link) => (
             <Link

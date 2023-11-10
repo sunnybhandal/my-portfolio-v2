@@ -8,7 +8,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #efefef;
 }
 
 body {
@@ -16,20 +15,11 @@ body {
 }
 
 @layer utilities {
-  .btn_white {
-    @apply border-white bg-white px-8 py-3 text-green-50;
+  .btn_primary {
+    @apply bg-[#89CFF0] px-8 py-1 text-black  transition-transform transform hover:translate-y-[-2px];
   }
-  .btn_white_text {
-    @apply border-white bg-white px-8 py-3 text-gray-90;
-  }
-  .btn_green {
-    @apply border-green-50 bg-green-50 px-8 py-5 text-white;
-  }
-  .btn_dark_green {
-    @apply bg-green-90 px-8 py-4 text-white transition-all hover:bg-black;
-  }
-  .btn_dark_green_outline {
-    @apply border-gray-20 bg-green-90 px-8 py-5 text-white;
+  .btn_secondary {
+    @apply bg-[#116D99] px-8 py-1 text-white transition-all hover:bg-[#89CFF0];
   }
 
   .max-container {
@@ -90,7 +80,23 @@ body {
   }
 
   .medium-14 {
+    @apply text-[14px] font-[500];
+  }
+  .medium-16 {
+    @apply text-[16px] font-[500];
+  }
+  .medium-18 {
+    @apply text-[18px] font-[500];
+  }
+
+  .semiBold-14 {
     @apply text-[14px] font-[600];
+  }
+  .semiBold-16 {
+    @apply text-[16px] font-[600];
+  }
+  .semiBold-18 {
+    @apply text-[18px] font-[600];
   }
 
   .bold-88 {

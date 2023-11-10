@@ -6,6 +6,9 @@ export const NAV_LINKS = [
   { href: "/experience", key: "experience ", label: "Experience " },
 ];
 
+// HOME SECTION
+export const BIO = { bio: "Hello Testing" };
+
 // ABOUT ME SECTION
 export const INTERESTS = [
   {
