@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`padding-container bg-main fixed py-2 w-screen z-20 ${
+      className={`padding-navbar bg-main fixed py-2 w-screen z-20 ${
         direction == "down"
           ? `transition-all transform border-b-2 border-[#116D99]`
           : `border-none`

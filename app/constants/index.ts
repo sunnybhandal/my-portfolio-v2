@@ -15,19 +15,6 @@ export const BIO = {
     "“If you are not willing to learn, no one can help you. If you are determined to learn, no one can stop you.”—Zig Ziglar.",
 };
 
-export const LINKS = [
-  {
-    label: "LinkedIn",
-    href: "https://www.linkedin.com/in/sunnybhandal/",
-    variant: "btn_primary",
-  },
-  {
-    label: "Figma",
-    href: "/",
-    variant: "btn_secondary",
-  },
-];
-
 // ABOUT ME SECTION
 export const INTERESTS = [
   {
