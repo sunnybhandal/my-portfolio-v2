@@ -25,6 +25,7 @@ export default function Home() {
           <div className="flex flex-col gap-4">
             <p className="">{BIO.p1}</p>
             <p className="">{BIO.p2}</p>
+            <p className="">{BIO.p3}</p>
             <p className="medium-16">{BIO.quote}</p>
           </div>
         </div>

@@ -17,6 +17,7 @@ const Navbar = () => {
           width={35}
           height={30}
           onClick={() => setOpenMenuModal(false)}
+          className=""
         />
 
         <div className="hidden lg:flex gap-6 items-center">
@@ -24,14 +25,14 @@ const Navbar = () => {
             <Link
               href={link.href}
               key={link.key}
-              className="regular-18 cursor-pointer hover:border-b-2  border-[#89CFF0]"
+              className="regular-18 cursor-pointer border-b-2 border-[#efefef] hover:border-b-2  hover:border-[#89CFF0]"
             >
               {link.label}
             </Link>
           ))}
         </div>
 
-        <div className="flex  items-center lg:hidden">
+        <div className="flex items-center lg:hidden">
           <Image
             src="/hamburger.svg"
             alt=""
@@ -42,62 +43,34 @@ const Navbar = () => {
           />
         </div>
 
+        {/* Mobile Menu */}
         {openMenuModal && (
-          <div className="relative flex flex-col justify-between w-full">
-            <div>
+          <div className="absolute z-20 bg-[#efefef] top-0 left-0 border-2 border-red-500 flex flex-row justify-between w-full h-full">
+            <div className="pl-6 pt-4">
               {NAV_LINKS.map((link) => (
                 <div className="flex gap-8">
                   <Link
                     href={link.href}
                     key={link.key}
-                    className="medium-18 mb-2 cursor-pointer hover:border-b-2 border-[#89CFF0]"
+                    className="medium-18 mb-2 cursor-pointer border-b-2 border-[#efefef] hover:border-b-2 hover:border-[#89CFF0]"
                   >
                     {link.label}
                   </Link>
                 </div>
               ))}
             </div>
-            <Image
-              src="/closeIcon.svg"
-              alt=""
-              width={35}
-              height={30}
-              className="cursor-pointer z-20 right-0"
-              onClick={() => setOpenMenuModal(false)}
-            />
+            <div className="pr-6 pt-4">
+              <Image
+                src="/closeIcon.svg"
+                alt=""
+                width={35}
+                height={30}
+                className="cursor-pointer z-20"
+                onClick={() => setOpenMenuModal(false)}
+              />
+            </div>
           </div>
         )}
-      </div>
-
-      {/* EXTRAS */}
-      <div className="absolute w-screen overflow-hidden">
-        <input
-          type="checkbox"
-          className="peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer"
-        />
-        <Image
-          src="/hamburger.svg"
-          alt=""
-          width={35}
-          height={30}
-          className="cursor-pointer z-10 bg-white "
-        />
-
-        <div className="bg-white relative overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-screen">
-          <div className="p-4">
-            {NAV_LINKS.map((link) => (
-              <div className="flex gap-8">
-                <Link
-                  href={link.href}
-                  key={link.key}
-                  className="medium-18 mb-2 cursor-pointer hover:border-b-2 border-[#89CFF0]"
-                >
-                  {link.label}
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </div>
   );
