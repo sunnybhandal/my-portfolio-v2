@@ -14,7 +14,7 @@ export default function Home() {
           height={100}
           className="w-48 lg:w-60"
         />
-        <h4 className="bold-22 mt-2">Sunny Bhandal</h4>
+        <h4 className="semiBold-22 mt-2">Sunny Bhandal</h4>
         <p className="mt-2 whitespace-nowrap">
           UX Designer & Software Developer
         </p>

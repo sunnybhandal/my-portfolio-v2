@@ -95,12 +95,12 @@ body {
     @apply text-[18px] font-[600];
   }
 
-  .bold-88 {
-    @apply text-[88px] font-[700] leading-[120%];
+  .semiBold-20 {
+    @apply text-[20px] font-[600];
   }
 
-  .bold-64 {
-    @apply text-[64px] font-[700] leading-[120%];
+  .semiBold-22 {
+    @apply text-[22px] font-[600];
   }
 
   .bold-52 {
