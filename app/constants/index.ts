@@ -15,20 +15,33 @@ export const BIO = {
     "“If you are not willing to learn, no one can help you. If you are determined to learn, no one can stop you.”—Zig Ziglar.",
 };
 
-// ABOUT ME SECTION
-export const INTERESTS = [
+// ABOUT SECTION
+export const ABOUTME = {
+  intro: "Let’s take a dive into some of my interests and hobbies.",
+  hiking: "you",
+  healthFitness: "fuck",
+  moviesShows: "",
+};
+
+export const MODALS = [
   {
-    title: "Hiking",
-    description: "",
+    title: "My Top Hikes",
+    list: "",
   },
   {
-    title: "Health & Fitness",
-    description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+    title: "My Top Books",
+    list: "",
   },
   {
-    title: "Movies & TV Shows",
-    description:
-      "Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection",
+    title: "My Top Podcasts",
+    list: "",
+  },
+  {
+    title: "My Top Movies",
+    list: "",
+  },
+  {
+    title: "My Top TV Shows",
+    list: "",
   },
 ];

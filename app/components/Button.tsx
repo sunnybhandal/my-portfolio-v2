@@ -1,17 +1,16 @@
 import Image from "next/image";
 
 type ButtonProps = {
-  type: "button";
   title: string;
   icon?: string;
   variant: string;
 };
 
-const Button = ({ type, title, icon, variant }: ButtonProps) => {
+const Button = ({ title, icon, variant }: ButtonProps) => {
   return (
     <button
       className={`bg-[#89CFF0] shadow-md rounded-lg ${variant}`}
-      type={type}
+      type="button"
     >
       <label className="medium-16 whitespace-nowrap cursor-pointer">
         {title}

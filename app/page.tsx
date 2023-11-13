@@ -24,7 +24,7 @@ export default function Home() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <Button type="button" title="LinkedIn" variant="btn_primary" />
+            <Button title="LinkedIn" variant="btn_primary" />
           </Link>
         </div>
       </div>
