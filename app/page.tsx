@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="max-container padding-container pt-20 flex flex-col lg:flex-row gap-8 lg:gap-20 items-center">
+    <div className="max-container padding-container pt-32 flex flex-col lg:flex-row gap-8 lg:gap-20 items-center">
       <div className="flex flex-col gap-0 items-center">
         <Image
           src="headshot.svg"

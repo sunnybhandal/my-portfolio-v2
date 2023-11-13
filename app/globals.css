@@ -31,7 +31,7 @@ body {
   }
 
   .padding-container {
-    @apply px-6 md:px-24 lg:px-32;
+    @apply px-6 md:px-12 lg:px-20;
   }
 
   .bg-main {
@@ -101,6 +101,10 @@ body {
 
   .semiBold-22 {
     @apply text-[22px] font-[600];
+  }
+
+  .semiBold-24 {
+    @apply text-[24px] font-[600];
   }
 
   .bold-52 {
