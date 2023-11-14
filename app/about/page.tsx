@@ -45,10 +45,12 @@ const About = () => {
 
       {/* Hiking */}
       <div>
-        <div className="flex flex-col-reverse lg:flex-row items-center lg:items-start justify-between mt-16 gap-10">
+        <div className="flex flex-col-reverse lg:flex-row items-center lg:items-center justify-between mt-16 gap-10">
           <div className="flex flex-col items-center">
             <h4 className="semiBold-24">Hiking</h4>
-            <p className="mt-2">{ABOUTME.hiking}</p>
+            <p className="mt-2">{ABOUTME.hiking.first}</p>
+            <p className="mt-2">{ABOUTME.hiking.second}</p>
+            <p className="mt-2">{ABOUTME.hiking.third}</p>
           </div>
           <PictureSlider />
         </div>

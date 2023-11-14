@@ -18,7 +18,14 @@ export const BIO = {
 // ABOUT SECTION
 export const ABOUTME = {
   intro: "Let’s take a dive into some of my interests and hobbies.",
-  hiking: "you",
+  hiking: {
+    first:
+      "In 2020, the pandemic led me down an unexpected path – I began hiking. Surprisingly, I wasn't particularly outdoorsy at the time, and the idea of hiking had never piqued my interest. However, a turning point came when a friend invited me to join them for a hike up Heart Mountain in the Kananaskis/Canmore area. It was a challenging hike, taking around 6.5 hours, and it turned out to be a transformative experience.",
+    second:
+      "After this hike, I became completely hooked. On the same evening, my friend and I committed to tackling the Canmore Triple Crown. This challenge within the hiking community requires completing the three most popular hikes in Canmore in a single day. Just over a month after my second-ever hike, I, along with two friends, successfully accomplished the Canmore Triple Crown in a demanding 8.5-hour expedition. It was easily the most difficult thing I've ever done, and the mental fortitude gained from this endeavor made it profoundly rewarding. In that year alone, I completed 19 different trails in just four months, solidifying hiking as an integral part of my life.",
+    third:
+      "The Triple Crown fueled my hunger for seeking out other physically challenging feats. Every year, I now set my sights on a new, challenging goal and work tirelessly to achieve it within the year. Since 2020, I've tested myself by learning to do the splits and even running a full marathon. I have a host of exciting challenges on the horizon, all while keeping an eye on the possibility of tackling another Triple Crown in the future. Hiking has shaped me in ways I could never have imagined, and I eagerly anticipate the adventures yet to come.",
+  },
   healthFitness: "fuck",
   moviesShows: "",
 };
