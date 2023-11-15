@@ -4,7 +4,8 @@ import React, { useState } from "react";
 import PictureSlider from "../components/PictureSlider";
 import ImageCarousel from "../components/ImageCarousel";
 import Button from "../components/Button";
-import { ABOUTME } from "../constants";
+import { ABOUTME, MODALS } from "../constants";
+import Modal from "../components/Modal";
 
 const HikingImages = [
   {
@@ -30,11 +31,7 @@ const HikingImages = [
 ];
 
 const About = () => {
-  const containerStyles = {
-    width: "500px",
-    height: "280px",
-    margin: "0 auto",
-  };
+  const [modalOpen, setModalOpen] = useState(false);
 
   return (
     <section className="max-container padding-container pt-24 mb-10">
@@ -42,7 +39,6 @@ const About = () => {
         <h2 className="bold-40 items-center">About Me</h2>
         <p className="mt-2">{ABOUTME.intro}</p>
       </div>
-
       {/* Hiking */}
       <div>
         <div className="flex flex-col-reverse lg:flex-row items-center lg:items-center justify-between mt-16 gap-10">
@@ -55,9 +51,21 @@ const About = () => {
           <PictureSlider />
         </div>
         <div className="flex justify-center mt-8">
-          <Button title="My Top Hikes" variant="btn_primary" />
+          {/* <div onClick={() => setModalOpen(true)}>hi</div> */}
+          {/* <button onClick={() => setModalOpen(true)}>hello</button> */}
+          <Button
+            title="My Top Hikes"
+            variant="btn_primary"
+            onClick={() => setModalOpen(true)}
+          />
         </div>
       </div>
+      <Modal
+        title="My Top Hikes"
+        content={MODALS.hiking}
+        isOpen={modalOpen}
+        onClose={() => setModalOpen(false)}
+      />
       {/* Health & Fitness */}
       <div>
         <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between mt-16 gap-10">
@@ -68,11 +76,18 @@ const About = () => {
           </div>
         </div>
         <div className="flex justify-center mt-8 gap-4">
-          <Button title="My Top Books" variant="btn_primary" />
-          <Button title="My Top Podcasts" variant="btn_secondary" />
+          <Button
+            title="My Top Books"
+            variant="btn_primary"
+            onClick={() => setModalOpen(true)}
+          />
+          <Button
+            title="My Top Podcasts"
+            variant="btn_secondary"
+            onClick={() => setModalOpen(true)}
+          />
         </div>
       </div>
-
       {/* Movies & TV Shows */}
       <div>
         <div className="flex flex-col-reverse lg:flex-row items-center lg:items-start justify-between mt-16 gap-10">
@@ -83,8 +98,16 @@ const About = () => {
           <PictureSlider />
         </div>
         <div className="flex justify-center mt-8 gap-4">
-          <Button title="My Top Books" variant="btn_primary" />
-          <Button title="My Top Podcasts" variant="btn_secondary" />
+          <Button
+            title="My Top Movies"
+            variant="btn_primary"
+            onClick={() => setModalOpen(true)}
+          />
+          <Button
+            title="My Top TV Shows"
+            variant="btn_secondary"
+            onClick={() => setModalOpen(true)}
+          />
         </div>
       </div>
     </section>

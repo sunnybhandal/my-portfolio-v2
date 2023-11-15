@@ -26,29 +26,152 @@ export const ABOUTME = {
     third:
       "The Triple Crown fueled my hunger for seeking out other physically challenging feats. Every year, I now set my sights on a new, challenging goal and work tirelessly to achieve it within the year. Since 2020, I've tested myself by learning to do the splits and even running a full marathon. I have a host of exciting challenges on the horizon, all while keeping an eye on the possibility of tackling another Triple Crown in the future. Hiking has shaped me in ways I could never have imagined, and I eagerly anticipate the adventures yet to come.",
   },
-  healthFitness: "fuck",
+  healthFitness: "health fit",
   moviesShows: "",
 };
 
-export const MODALS = [
-  {
-    title: "My Top Hikes",
-    list: "",
-  },
-  {
-    title: "My Top Books",
-    list: "",
-  },
-  {
-    title: "My Top Podcasts",
-    list: "",
-  },
-  {
-    title: "My Top Movies",
-    list: "",
-  },
-  {
-    title: "My Top TV Shows",
-    list: "",
-  },
-];
+// export const MODALS = [
+//   {
+//     title: "My Top Hikes",
+//     list: "",
+//   },
+//   {
+//     title: "My Top Books",
+//     list: "",
+//   },
+//   {
+//     title: "My Top Podcasts",
+//     list: "",
+//   },
+//   {
+//     title: "My Top Movies",
+//     list: "",
+//   },
+//   {
+//     title: "My Top TV Shows",
+//     list: "",
+//   },
+// ];
+
+export const MODALS = {
+  hiking: [
+    {
+      label: "Wasootch Peak",
+      href: "https://www.alltrails.com/trail/canada/alberta/wasootch-peak?search=true",
+    },
+    {
+      label: "Mount Yamnuska",
+      href: "https://www.alltrails.com/trail/canada/alberta/mount-yamnuska-traverse-and-west-col-descent",
+    },
+    {
+      label: "Mount Temple",
+      href: "https://www.alltrails.com/trail/canada/alberta/mount-temple",
+    },
+    {
+      label: "Cirque Peak",
+      href: "https://www.alltrails.com/trail/canada/alberta/cirque-peak-via-helen-lake-trail",
+    },
+    {
+      label: "East End of Rundle",
+      href: "https://www.alltrails.com/trail/canada/alberta/east-end-of-rundle-eeor",
+    },
+    {
+      label: "Tent Ridge Horseshoe",
+      href: "https://www.alltrails.com/trail/canada/alberta/tent-ridge-horseshoe",
+    },
+    {
+      label: "Sarrail Ridge",
+      href: "https://www.alltrails.com/trail/canada/alberta/sarrail-ridge-via-rawson-lake-trail?u=i",
+    },
+    {
+      label: "Crypt Lake",
+      href: "https://www.alltrails.com/trail/canada/alberta/crypt-lake-trail-loop",
+    },
+    {
+      label: "Mount Lipsett",
+      href: "https://www.alltrails.com/trail/canada/alberta/mount-lipsett",
+    },
+    {
+      label: "Devil's Thumb",
+      href: "https://www.alltrails.com/trail/canada/alberta/devils-thumb-via-lake-agnes-trail",
+    },
+  ],
+  books: [
+    "Interstellar",
+    "Inception",
+    "The Dark Knight Rises",
+    "The Dark Knight",
+    "Inglourious Basterds",
+    "The Wolf of Wall Street",
+    "The Shawshank Redemption",
+    "Joker",
+    "Nightcrawler",
+    "The Curious Case of Benjamin Button",
+  ],
+  podcasts: [
+    {
+      label: "Stuff",
+      href: "spotify links",
+    },
+    {
+      label: "",
+      href: "",
+    },
+    {
+      label: "",
+      href: "",
+    },
+    {
+      label: "",
+      href: "",
+    },
+    {
+      label: "",
+      href: "",
+    },
+    {
+      label: "",
+      href: "",
+    },
+    {
+      label: "",
+      href: "",
+    },
+    {
+      label: "",
+      href: "",
+    },
+    {
+      label: "",
+      href: "",
+    },
+    {
+      label: "",
+      href: "",
+    },
+  ],
+  movies: [
+    "Interstellar",
+    "Inception",
+    "The Dark Knight Rises",
+    "The Dark Knight",
+    "Inglourious Basterds",
+    "The Wolf of Wall Street",
+    "The Shawshank Redemption",
+    "Joker",
+    "Nightcrawler",
+    "The Curious Case of Benjamin Button",
+  ],
+  tv_shows: [
+    "Breaking Bad",
+    "Peaky Blinders",
+    "Mr. Robot",
+    "Trailer Park Boys",
+    "Daredevil",
+    "The Wire",
+    "The Inbetweeners",
+    "The Office",
+    "Curb Your Enthusiasm",
+    "Succession",
+  ],
+};
