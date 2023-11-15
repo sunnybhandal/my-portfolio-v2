@@ -75,6 +75,7 @@ const Navbar = () => {
                   <Link
                     href={link.href}
                     key={link.key}
+                    onClick={() => setOpenMenuModal(false)}
                     className="medium-18 mb-2 cursor-pointer border-b-2 border-transparent hover:border-b-2 hover:border-[#89CFF0]"
                   >
                     {link.label}
@@ -82,7 +83,7 @@ const Navbar = () => {
                 </div>
               ))}
             </div>
-            <div className="pr-6 pt-4">
+            <div className="pr-8 pt-4">
               <Image
                 src="/closeIcon.svg"
                 alt=""

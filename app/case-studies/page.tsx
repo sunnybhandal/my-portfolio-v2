@@ -11,7 +11,7 @@ const CaseStudies = () => {
         <h2 className="bold-40 items-center">Case Studies</h2>
         <p className="mt-2">{CASESTUDY.intro}</p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 mt-16 gap-x-6 lg:gap-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2 mt-8 gap-6 lg:gap-2">
         <div className="flex flex-col items-center">
           <h2 className="semiBold-20 lg:semiBold-22 mb-1">Personal Website</h2>
           <Link

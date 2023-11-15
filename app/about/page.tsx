@@ -13,15 +13,15 @@ const About = () => {
   const [showsModalOpen, setShowsModalOpen] = useState(false);
 
   return (
-    <section className="max-container padding-container pt-24 mb-10">
+    <section className="max-container padding-container pt-20 mb-10">
       <div className="flex flex-col items-center">
         <h2 className="bold-40 items-center">About Me</h2>
         <p className="mt-2">{ABOUTME.intro}</p>
       </div>
       {/* Hiking */}
       <div>
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-16 gap-10">
-          <div className="flex flex-col items-center">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6">
+          <div className="flex flex-col items-center lg:items-start">
             <h4 className="semiBold-24">Hiking</h4>
             <p className="mt-2">{ABOUTME.hiking.first}</p>
             <p className="mt-2">{ABOUTME.hiking.second}</p>
@@ -46,7 +46,7 @@ const About = () => {
       />
       {/* Health & Fitness */}
       <div>
-        <div className="flex flex-col lg:flex-row items-center justify-between mt-16 gap-10">
+        <div className="flex flex-col lg:flex-row items-center justify-between mt-10 gap-6">
           <Image
             src="/workingOut.jpg"
             alt="working out"
@@ -54,7 +54,7 @@ const About = () => {
             height={280}
             className="rounded-lg border-2 border-[#89CFF0]"
           />
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center lg:items-end">
             <h4 className="semiBold-24">Health & Wellness</h4>
             <p className="mt-2">{ABOUTME.healthWellness.first}</p>
             <p className="mt-2">{ABOUTME.healthWellness.second}</p>
@@ -78,25 +78,27 @@ const About = () => {
       />
       {/* Movies & TV Shows */}
       <div>
-        <div className="flex flex-col-reverse lg:flex-row items-center lg:items-start justify-between mt-16 gap-10">
-          <div className="flex flex-col items-center">
-            <h4 className="semiBold-24">Movies & TV Shows</h4>
-            <p className="mt-2">{ABOUTME.moviesShows}</p>
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6">
+          <div className="flex flex-col items-center lg:items-start">
+            <h4 className="items-center semiBold-24">Movies & TV Shows</h4>
+            <p className="mt-2">{ABOUTME.moviesShows.first}</p>
+            <p className="mt-2">{ABOUTME.moviesShows.second}</p>
+            <p className="mt-2">{ABOUTME.moviesShows.third}</p>
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4 lg:w-[2000px]">
             <Image
               src="/interstellar.jpeg"
               alt="interstellar"
               width={150}
               height={150}
-              className="rounded-lg border-2 border-[#89CFF0]"
+              className="rounded-lg border-2 border-[#89CFF0] "
             />
             <Image
               src="/inception.jpeg"
               alt="inception"
               width={150}
               height={150}
-              className="rounded-lg border-2 border-[#89CFF0]"
+              className="rounded-lg border-2 border-[#89CFF0] "
             />
             <Image
               src="/breakingBad.jpg"
@@ -110,7 +112,7 @@ const About = () => {
               alt="Dark Knight Rises"
               width={150}
               height={150}
-              className="rounded-lg border-2 border-[#89CFF0]"
+              className="rounded-lg border-2 border-[#89CFF0] "
             />
           </div>
         </div>

@@ -34,7 +34,14 @@ export const ABOUTME = {
     third:
       "The wealth of information available on platforms like YouTube, podcasts, and eBooks, has made the learning process not only enriching but also thoroughly enjoyable. For those seeking valuable resources, I highly recommend exploring the curated content in the button below, as it offers a gateway to a wealth of knowledge in this captivating domain. The content will lead you to podcast episodes and YouTube pages.",
   },
-  moviesShows: "",
+  moviesShows: {
+    first:
+      "Once you finish watching something, you’re onto the next. This is just how things go for me and has led me to viewing 2,700+ titles. Ever since I created an IMDB account, I found myself constantly hunting down different titles that interested me. In the past, my watch list was monumental, but having experienced all the movies and shows that ever intrigued me has provided a sense of fulfillment. Now it’s just keeping up with what’s upcoming.",
+    second:
+      "What fuels my deep love for movies and shows? It's rooted in the emotions they evoke. The sentiments expressed through these media forms hold profound significance for me. Christopher Nolan stands out as a director who has touched my soul like no other (you may have gathered this from the adjacent images). His unique film style, coupled with the consistently sensational soundtracks, transforms each viewing into a delightful experience.",
+    third:
+      "Check out the buttons below to discover the titles I absolutely adore.",
+  },
 };
 
 export const HIKING_PICS = [
