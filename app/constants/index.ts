@@ -170,3 +170,12 @@ export const MODALS = {
     },
   ],
 };
+
+// CASE STUDIES SECTION
+export const CASESTUDY = {
+  intro:
+    "Here are the different projects and case studies I''m either currently working on or have worked on.",
+  portfolio: {
+    first: "",
+  },
+};

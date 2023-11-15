@@ -52,7 +52,7 @@ const About = () => {
             alt="working out"
             width={500}
             height={280}
-            className="rounded-lg"
+            className="rounded-lg border-2 border-[#89CFF0]"
           />
           <div className="flex flex-col items-center">
             <h4 className="semiBold-24">Health & Wellness</h4>
@@ -89,28 +89,28 @@ const About = () => {
               alt="interstellar"
               width={150}
               height={150}
-              className="rounded-lg"
+              className="rounded-lg border-2 border-[#89CFF0]"
             />
             <Image
               src="/inception.jpeg"
               alt="inception"
               width={150}
               height={150}
-              className="rounded-lg"
+              className="rounded-lg border-2 border-[#89CFF0]"
             />
             <Image
               src="/breakingBad.jpg"
               alt="interstellar"
               width={150}
               height={150}
-              className="rounded-lg"
+              className="rounded-lg border-2 border-[#89CFF0]"
             />
             <Image
               src="/darkKnightRises.jpg"
               alt="Dark Knight Rises"
               width={150}
               height={150}
-              className="rounded-lg"
+              className="rounded-lg border-2 border-[#89CFF0]"
             />
           </div>
         </div>
