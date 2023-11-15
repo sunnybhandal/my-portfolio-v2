@@ -8,32 +8,37 @@ const CaseStudies = () => {
   return (
     <section className="max-container padding-container pt-24 mb-10">
       <div className="flex flex-col items-center">
-        <h2 className="bold-40 items-center">About Me</h2>
+        <h2 className="bold-40 items-center">Case Studies</h2>
         <p className="mt-2">{CASESTUDY.intro}</p>
       </div>
-      {/* Portfolio */}
-      <div>
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-16 gap-10">
-          <div className="flex flex-col items-center">
-            <h4 className="semiBold-24">Personal Website</h4>
-            <p className="mt-2">{CASESTUDY.portfolio.first}</p>
-          </div>
-          <Image
-            src="/portfolioFigma.png"
-            alt="Portfolio Figma"
-            width={500}
-            height={280}
-            className="rounded-lg border-2 border-[#89CFF0]"
-          />
-        </div>
-        <div className="flex justify-center mt-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 mt-16 gap-x-6 lg:gap-2">
+        <div className="flex flex-col items-center">
+          <h2 className="semiBold-20 lg:semiBold-22 mb-1">Personal Website</h2>
           <Link
             href="https://www.figma.com/file/uZEErXqAYSUNBYfpcejCn8/Portfolio?type=design&node-id=0%3A1&mode=design&t=W01hZwUju46ZwADO-1"
             rel="noopener noreferrer"
             target="_blank"
           >
-            <Button title="View Design" variant="btn_primary" />
+            <Image
+              src="/portfolioFigma.png"
+              alt="Portfolio Figma"
+              width={429}
+              height={280}
+              className="rounded-lg border-2 border-[#89CFF0] hover:opacity-50"
+            />
           </Link>
+        </div>
+        <div className="flex flex-col items-center">
+          <h2 className="semiBold-20 lg:semiBold-22 mb-1">
+            Banking Case Study (Coming Soon)
+          </h2>
+          <Image
+            src="/design.jpg"
+            alt="Banking App"
+            width={415}
+            height={280}
+            className="rounded-lg border-2 border-[#89CFF0]"
+          />
         </div>
       </div>
     </section>

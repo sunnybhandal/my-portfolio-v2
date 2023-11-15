@@ -174,8 +174,30 @@ export const MODALS = {
 // CASE STUDIES SECTION
 export const CASESTUDY = {
   intro:
-    "Here are the different projects and case studies I''m either currently working on or have worked on.",
+    "Here are the different projects and case studies I'm either currently working on or have worked on.",
   portfolio: {
     first: "",
+  },
+};
+
+// EXPERIENCE SECTION
+export const EXPERIENCE = {
+  ohmniLabs: {
+    first:
+      "Effectively managed our robotics trial programs and delivered compelling product presentations to potential clients, resulting in revenue generation exceeding $1 million",
+    second:
+      "Engaged in research, design, and prototyping of software to develop a more seamless user experience, aligning with OhmniLabs' customer-centric approach",
+    third:
+      "Delivered exceptional customer support to our Healthcare clients, fostering long-lasting relationships that produced repeat business",
+    fourth:
+      "Created a comprehensive array of content, encompassing documents, photos, and videos to streamline and enhance the support process",
+  },
+  simplyAsk: {
+    first:
+      "Engineered frontend solutions using React.js to introduce software features, thereby amplifying runtime efficiency and elevating the user experience",
+    second:
+      "Executed code reviews and conducted comprehensive functionality tests for frontend features, ensuring seamless and successful deployments",
+    third:
+      "Provided mentorship to team members to facilitate their familiarity and comprehension of the codebase, enabling them to make swift and valuable contributions",
   },
 };
