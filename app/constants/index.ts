@@ -26,32 +26,39 @@ export const ABOUTME = {
     third:
       "The Triple Crown fueled my hunger for seeking out other physically challenging feats. Every year, I now set my sights on a new, challenging goal and work tirelessly to achieve it within the year. Since 2020, I've tested myself by learning to do the splits and even running a full marathon. I have a host of exciting challenges on the horizon, all while keeping an eye on the possibility of tackling another Triple Crown in the future. Hiking has shaped me in ways I could never have imagined, and I eagerly anticipate the adventures yet to come.",
   },
-  healthFitness: "health fit",
+  healthWellness: {
+    first:
+      "This field continually captivates my curiosity and fuels an ongoing journey of learning. It all began in 2015 when I delved into the realm of weight lifting, swiftly discovering my passion for the intricate art of bodybuilding. What initially started with fundamental knowledge on resistance training evolved into a relentless pursuit of understanding and expertise.",
+    second:
+      "From resolving common health issues to healing from injuries on your own, learning about the topics in this space has proven immensely valuable for enhancing one's quality of life.",
+    third:
+      "The wealth of information available on platforms like YouTube, podcasts, and eBooks, has made the learning process not only enriching but also thoroughly enjoyable. For those seeking valuable resources, I highly recommend exploring the curated content in the button below, as it offers a gateway to a wealth of knowledge in this captivating domain.",
+  },
   moviesShows: "",
 };
 
-// export const MODALS = [
-//   {
-//     title: "My Top Hikes",
-//     list: "",
-//   },
-//   {
-//     title: "My Top Books",
-//     list: "",
-//   },
-//   {
-//     title: "My Top Podcasts",
-//     list: "",
-//   },
-//   {
-//     title: "My Top Movies",
-//     list: "",
-//   },
-//   {
-//     title: "My Top TV Shows",
-//     list: "",
-//   },
-// ];
+export const HIKING_PICS = [
+  {
+    id: 1,
+    label: "Mount St. Piran",
+    file: "/stPiran.png",
+  },
+  {
+    id: 2,
+    label: "Mount Temple",
+    file: "/temple.png",
+  },
+  {
+    id: 3,
+    label: "EEOR",
+    file: "/eeor.png",
+  },
+  {
+    id: 4,
+    label: "Mount Sulphur",
+    file: "/sulphur.png",
+  },
+];
 
 export const MODALS = {
   hiking: [
@@ -96,71 +103,16 @@ export const MODALS = {
       href: "https://www.alltrails.com/trail/canada/alberta/devils-thumb-via-lake-agnes-trail",
     },
   ],
-  books: [
-    "Interstellar",
-    "Inception",
-    "The Dark Knight Rises",
-    "The Dark Knight",
-    "Inglourious Basterds",
-    "The Wolf of Wall Street",
-    "The Shawshank Redemption",
-    "Joker",
-    "Nightcrawler",
-    "The Curious Case of Benjamin Button",
-  ],
-  podcasts: [
-    {
-      label: "Stuff",
-      href: "spotify links",
-    },
-    {
-      label: "",
-      href: "",
-    },
-    {
-      label: "",
-      href: "",
-    },
-    {
-      label: "",
-      href: "",
-    },
-    {
-      label: "",
-      href: "",
-    },
-    {
-      label: "",
-      href: "",
-    },
-    {
-      label: "",
-      href: "",
-    },
-    {
-      label: "",
-      href: "",
-    },
-    {
-      label: "",
-      href: "",
-    },
-    {
-      label: "",
-      href: "",
-    },
-  ],
   movies: [
-    "Interstellar",
-    "Inception",
-    "The Dark Knight Rises",
-    "The Dark Knight",
-    "Inglourious Basterds",
-    "The Wolf of Wall Street",
-    "The Shawshank Redemption",
-    "Joker",
-    "Nightcrawler",
-    "The Curious Case of Benjamin Button",
+    { label: "Interstellar", href: "" },
+    { label: "The Dark Knight Rises", href: "" },
+    { label: "The Dark Knight", href: "" },
+    { label: "Inglourious Basterds", href: "" },
+    { label: "The Wolf of Wall Street", href: "" },
+    { label: "The Shawshank Redemption", href: "" },
+    { label: "Joker", href: "" },
+    { label: "Nightcrawler", href: "" },
+    { label: "The Curious Case of Benjamin Button", href: "" },
   ],
   tv_shows: [
     "Breaking Bad",
@@ -169,9 +121,51 @@ export const MODALS = {
     "Trailer Park Boys",
     "Daredevil",
     "The Wire",
-    "The Inbetweeners",
+    "Silicon Valley",
     "The Office",
     "Curb Your Enthusiasm",
     "Succession",
+  ],
+  health_resources: [
+    {
+      label: "James Nestor (Breathing)",
+      href: "",
+    },
+    {
+      label: "Andrew Huberman (Neuroscience)",
+      href: "",
+    },
+    {
+      label: "David Goggins (Mindset)",
+      href: "",
+    },
+    {
+      label: "Peter Attia (Longevity)",
+      href: "",
+    },
+    {
+      label: "Ben Patrick (Fitness)",
+      href: "",
+    },
+    {
+      label: "Jeff Cavaliere (Fitness)",
+      href: "",
+    },
+    {
+      label: "Naval Ravikant (Mindset)",
+      href: "",
+    },
+    {
+      label: "Matthew Walker (Sleep)",
+      href: "",
+    },
+    {
+      label: "Dr. Eric Berg (Nutrition)",
+      href: "",
+    },
+    {
+      label: "Paul Saladino (Nutrition)",
+      href: "",
+    },
   ],
 };

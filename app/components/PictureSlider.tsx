@@ -1,24 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
-
-const HikingImages = [
-  {
-    id: 1,
-    file: "/stPiran.png",
-  },
-  {
-    id: 2,
-    file: "/temple.png",
-  },
-  {
-    id: 3,
-    file: "/eeor.png",
-  },
-  {
-    id: 4,
-    file: "/sulphur.png",
-  },
-];
+import { HIKING_PICS } from "../constants";
 
 const PictureSlider = () => {
   const [pictureState, setPictureState] = useState(1);
@@ -28,7 +10,7 @@ const PictureSlider = () => {
       {pictureState === 1 && (
         <>
           <Image
-            src={HikingImages[0].file}
+            src={HIKING_PICS[0].file}
             alt=""
             width={500}
             height={280}
@@ -57,7 +39,7 @@ const PictureSlider = () => {
       {pictureState === 2 && (
         <>
           <Image
-            src={HikingImages[1].file}
+            src={HIKING_PICS[1].file}
             alt=""
             width={500}
             height={280}
@@ -86,7 +68,7 @@ const PictureSlider = () => {
       {pictureState === 3 && (
         <>
           <Image
-            src={HikingImages[2].file}
+            src={HIKING_PICS[2].file}
             alt=""
             width={500}
             height={280}
@@ -115,7 +97,7 @@ const PictureSlider = () => {
       {pictureState === 4 && (
         <>
           <Image
-            src={HikingImages[3].file}
+            src={HIKING_PICS[3].file}
             alt=""
             width={500}
             height={280}

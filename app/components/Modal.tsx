@@ -21,7 +21,7 @@ const Modal = ({ isOpen, onClose, title, content }: ModalProps) => {
       ></div>
 
       {/* Modal */}
-      <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-main px-6 py-4 w-[300px] rounded-lg shadow-md z-10 border-2 border-[#89CFF0]">
+      <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-main px-6 py-4 w-[500px] rounded-lg shadow-md z-10 border-2 border-[#89CFF0]">
         <div className="flex justify-between mb-4">
           <h4 className="semiBold-22">{title}</h4>
           <Image
