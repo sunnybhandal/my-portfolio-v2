@@ -32,7 +32,7 @@ export const ABOUTME = {
     second:
       "From resolving common health issues to healing from injuries on your own, learning about the topics in this space has proven immensely valuable for enhancing one's quality of life.",
     third:
-      "The wealth of information available on platforms like YouTube, podcasts, and eBooks, has made the learning process not only enriching but also thoroughly enjoyable. For those seeking valuable resources, I highly recommend exploring the curated content in the button below, as it offers a gateway to a wealth of knowledge in this captivating domain.",
+      "The wealth of information available on platforms like YouTube, podcasts, and eBooks, has made the learning process not only enriching but also thoroughly enjoyable. For those seeking valuable resources, I highly recommend exploring the curated content in the button below, as it offers a gateway to a wealth of knowledge in this captivating domain. The content will lead you to podcast episodes and YouTube pages.",
   },
   moviesShows: "",
 };
@@ -104,15 +104,16 @@ export const MODALS = {
     },
   ],
   movies: [
-    { label: "Interstellar", href: "" },
-    { label: "The Dark Knight Rises", href: "" },
-    { label: "The Dark Knight", href: "" },
-    { label: "Inglourious Basterds", href: "" },
-    { label: "The Wolf of Wall Street", href: "" },
-    { label: "The Shawshank Redemption", href: "" },
-    { label: "Joker", href: "" },
-    { label: "Nightcrawler", href: "" },
-    { label: "The Curious Case of Benjamin Button", href: "" },
+    "Interstellar",
+    "Inception",
+    "The Dark Knight Rises",
+    "The Dark Knight",
+    "Inglourious Basterds",
+    "The Wolf of Wall Street",
+    "The Shawshank Redemption",
+    "Joker",
+    "Nightcrawler",
+    "The Curious Case of Benjamin Button",
   ],
   tv_shows: [
     "Breaking Bad",
@@ -124,48 +125,48 @@ export const MODALS = {
     "Silicon Valley",
     "The Office",
     "Curb Your Enthusiasm",
-    "Succession",
+    "Game of Thrones",
   ],
   health_resources: [
     {
       label: "James Nestor (Breathing)",
-      href: "",
+      href: "https://open.spotify.com/episode/58Drs6tKeuq82hMTbcDC0G?si=3ff3d09d9b224f3e",
     },
     {
       label: "Andrew Huberman (Neuroscience)",
-      href: "",
+      href: "https://open.spotify.com/episode/1HnJSVAxlfZVREkojSJ39c?si=390398a4dcba486e",
     },
     {
       label: "David Goggins (Mindset)",
-      href: "",
+      href: "https://open.spotify.com/episode/70ssh8DCCOlwwOEAjLobW3?si=49Vg_RthSGKDyao-GwsAHA",
     },
     {
       label: "Peter Attia (Longevity)",
-      href: "",
+      href: "https://open.spotify.com/episode/5DuxGhOJSa7X0AKvJGwwta?si=XVJf6fjoRhC6560HLVBXBg",
     },
     {
       label: "Ben Patrick (Fitness)",
-      href: "",
+      href: "https://www.youtube.com/@TheKneesovertoesguy",
     },
     {
       label: "Jeff Cavaliere (Fitness)",
-      href: "",
+      href: "https://www.youtube.com/@athleanx",
     },
     {
       label: "Naval Ravikant (Mindset)",
-      href: "",
+      href: "https://open.spotify.com/episode/3ijkVfaht5kcFPvHcCbYYD?si=bpiCLKL6QR6DtE9y7rCyCw",
     },
     {
       label: "Matthew Walker (Sleep)",
-      href: "",
+      href: "https://open.spotify.com/episode/4KNsmuCgX6lz8GE2J3393Y?si=z724P8-rRuuw2sqAOJB29w",
     },
     {
       label: "Dr. Eric Berg (Nutrition)",
-      href: "",
+      href: "https://www.youtube.com/@DrEricBergDC",
     },
     {
       label: "Paul Saladino (Nutrition)",
-      href: "",
+      href: "https://open.spotify.com/episode/38aFwbmJSYCezCcAVHbWk0?si=yUcX4OCdTp6kV7yOFey_pA",
     },
   ],
 };

@@ -30,8 +30,6 @@ const About = () => {
           <PictureSlider />
         </div>
         <div className="flex justify-center mt-8">
-          {/* <div onClick={() => setModalOpen(true)}>hi</div> */}
-          {/* <button onClick={() => setModalOpen(true)}>hello</button> */}
           <Button
             title="My Top Hikes"
             variant="btn_primary"
@@ -44,11 +42,18 @@ const About = () => {
         content={MODALS.hiking}
         isOpen={hikingModalOpen}
         onClose={() => setHikingModalOpen(false)}
+        href={true}
       />
       {/* Health & Fitness */}
       <div>
         <div className="flex flex-col lg:flex-row items-center justify-between mt-16 gap-10">
-          <PictureSlider />
+          <Image
+            src="/workingOut.jpg"
+            alt="working out"
+            width={500}
+            height={280}
+            className="rounded-lg"
+          />
           <div className="flex flex-col items-center">
             <h4 className="semiBold-24">Health & Wellness</h4>
             <p className="mt-2">{ABOUTME.healthWellness.first}</p>
@@ -65,10 +70,11 @@ const About = () => {
         </div>
       </div>
       <Modal
-        title="Health Resources"
+        title="Interesting People"
         content={MODALS.health_resources}
         isOpen={healthModalOpen}
         onClose={() => setHealthModalOpen(false)}
+        href={true}
       />
       {/* Movies & TV Shows */}
       <div>
@@ -77,7 +83,36 @@ const About = () => {
             <h4 className="semiBold-24">Movies & TV Shows</h4>
             <p className="mt-2">{ABOUTME.moviesShows}</p>
           </div>
-          <PictureSlider />
+          <div className="grid grid-cols-2 gap-4">
+            <Image
+              src="/interstellar.jpeg"
+              alt="interstellar"
+              width={150}
+              height={150}
+              className="rounded-lg"
+            />
+            <Image
+              src="/inception.jpeg"
+              alt="inception"
+              width={150}
+              height={150}
+              className="rounded-lg"
+            />
+            <Image
+              src="/breakingBad.jpg"
+              alt="interstellar"
+              width={150}
+              height={150}
+              className="rounded-lg"
+            />
+            <Image
+              src="/darkKnightRises.jpg"
+              alt="Dark Knight Rises"
+              width={150}
+              height={150}
+              className="rounded-lg"
+            />
+          </div>
         </div>
         <div className="flex justify-center mt-8 gap-4">
           <Button
@@ -97,12 +132,12 @@ const About = () => {
           isOpen={moviesModalOpen}
           onClose={() => setMoviesModalOpen(false)}
         />
-        {/* <Modal
+        <Modal
           title="My Top TV Shows"
           content={MODALS.tv_shows}
           isOpen={showsModalOpen}
           onClose={() => setShowsModalOpen(false)}
-        /> */}
+        />
       </div>
     </section>
   );
