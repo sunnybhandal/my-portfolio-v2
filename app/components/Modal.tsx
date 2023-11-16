@@ -22,7 +22,7 @@ const Modal = ({ isOpen, onClose, title, content, href }: ModalProps) => {
       ></div>
 
       {/* Modal */}
-      <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-main px-6 py-4 w-[385px] md:w-[500px] rounded-lg shadow-md z-10 border-4 border-[#89CFF0]">
+      <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-main px-2 md:px-6 py-2 md:py-4 w-[355px] md:w-[500px] rounded-lg shadow-md z-10 border-4 border-[#89CFF0]">
         <div className="flex justify-between mb-4">
           <h4 className="semiBold-20 md:semiBold-22">{title}</h4>
           <Image
@@ -35,7 +35,7 @@ const Modal = ({ isOpen, onClose, title, content, href }: ModalProps) => {
           />
         </div>
         {content?.map((item: any, index: any) => (
-          <div className="flex gap-2 medium-16 md:medium-18">
+          <div className="flex gap-1 md:gap-2 medium-16 md:medium-18">
             <span>{index + 1}.</span>
             {href ? (
               <Link
