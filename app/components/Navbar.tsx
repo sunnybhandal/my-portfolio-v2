@@ -78,7 +78,7 @@ const Navbar = () => {
                     href={link.href}
                     key={link.key}
                     onClick={() => setOpenMenuModal(false)}
-                    className="medium-18 mb-2 cursor-pointer border-b-2 border-transparent hover:border-b-2 hover:border-[#89CFF0]"
+                    className="medium-20 mb-2 cursor-pointer border-b-2 border-transparent hover:border-b-2 hover:border-[#89CFF0]"
                   >
                     {link.label}
                   </Link>
