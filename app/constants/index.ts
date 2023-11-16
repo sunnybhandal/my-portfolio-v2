@@ -16,7 +16,8 @@ export const BIO = {
 
 // ABOUT SECTION
 export const ABOUTME = {
-  intro: "Let’s take a dive into some of my interests and hobbies.",
+  intro:
+    "I’m a simple human that is always ready to give a tv/movie recommendation, enjoys sports, and diving into anything that piques my interest. Growing up I played basketball for many years and though I don’t play competitively anymore, I still pursue an active lifestyle.",
   hiking: {
     first:
       "In 2020, the pandemic led me down an unexpected path – I began hiking. Surprisingly, I wasn't particularly outdoorsy at the time, and the idea of hiking had never piqued my interest. However, a turning point came when a friend invited me to join them for a hike up Heart Mountain in the Kananaskis/Canmore area. It was a challenging hike, taking around 6.5 hours, and it turned out to be a transformative experience.",
