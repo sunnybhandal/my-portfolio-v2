@@ -34,14 +34,16 @@ const Navbar = () => {
       }`}
     >
       <div className="flex justify-between">
-        <Image
-          src="/logo.svg"
-          alt="logo"
-          width={35}
-          height={30}
-          onClick={() => setOpenMenuModal(false)}
-          className=""
-        />
+        <Link href="/">
+          <Image
+            src="/logo.svg"
+            alt="logo"
+            width={35}
+            height={30}
+            onClick={() => setOpenMenuModal(false)}
+            className=""
+          />
+        </Link>
 
         <div className="hidden lg:flex gap-6 items-center">
           {NAV_LINKS.map((link) => (
