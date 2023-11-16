@@ -29,7 +29,7 @@ const CaseStudies = () => {
           </Link>
         </div>
         <div className="flex flex-col items-center">
-          <h2 className="semiBold-20 lg:semiBold-22 mb-1">
+          <h2 className="semiBold-18 lg:semiBold-22 mb-1">
             Banking Case Study (Coming Soon)
           </h2>
           <Image
