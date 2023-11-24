@@ -16,7 +16,7 @@ const About = () => {
     <section className="max-container padding-container pt-20 mb-10">
       <div className="flex flex-col items-center">
         <h2 className="bold-40">About Me</h2>
-        <p className="mt-2 px-0 lg:px-20 text-center">{ABOUTME.intro}</p>
+        <p className="mt-2">{ABOUTME.intro}</p>
       </div>
       {/* Hiking */}
       <div>
