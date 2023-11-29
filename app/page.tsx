@@ -4,8 +4,9 @@ import Button from "./components/Button";
 import Link from "next/link";
 
 export default function Home() {
+  // lg:pt-40
   return (
-    <div className="max-container padding-container pt-24 lg:pt-40 flex flex-col lg:flex-row gap-8 lg:gap-20 items-center">
+    <div className="max-container padding-container pt-20 lg:pt-0 flex flex-col lg:flex-row gap-8 lg:gap-20 h-screen items-center">
       <div className="flex flex-col gap-0 items-center">
         <Image
           src="headshot.svg"
