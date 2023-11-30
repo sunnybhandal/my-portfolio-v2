@@ -35,14 +35,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between">
         <Link href="/">
-          <Image
-            src="/logo.svg"
-            alt="logo"
-            width={35}
-            height={30}
-            onClick={() => setOpenMenuModal(false)}
-            className=""
-          />
+          <Image src="/logo.svg" alt="logo" width={35} height={30} />
         </Link>
 
         <div className="hidden lg:flex gap-6 items-center">
@@ -58,43 +51,44 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center lg:hidden">
-          <Image
-            src="/hamburger.svg"
-            alt=""
-            width={35}
-            height={30}
-            className="cursor-pointer z-20"
-            onClick={() => setOpenMenuModal(true)}
-          />
+          {openMenuModal ? (
+            <Image
+              src="/closeIcon.svg"
+              alt=""
+              width={33}
+              height={30}
+              className="cursor-pointer z-20"
+              onClick={() => setOpenMenuModal(false)}
+            />
+          ) : (
+            <Image
+              src="/hamburger.svg"
+              alt=""
+              width={35}
+              height={30}
+              className="cursor-pointer z-20"
+              onClick={() => setOpenMenuModal(true)}
+            />
+          )}
         </div>
 
         {/* Mobile Menu */}
         {openMenuModal && (
-          <div className="absolute z-20 bg-[#efefef] top-0 left-0 flex flex-row justify-between w-full h-screen">
-            <div className="pl-6 pt-4">
+          <div className="absolute pt-4 z-0 bg-[#efefef] top-[52px] left-0 flex flex-row justify-between w-full ">
+            <ul className="padding-navbar">
               {NAV_LINKS.map((link) => (
-                <div className="flex gap-8">
+                <li className="flex gap-8">
                   <Link
                     href={link.href}
                     key={link.key}
                     onClick={() => setOpenMenuModal(false)}
-                    className="medium-20 mb-2 cursor-pointer border-b-2 border-transparent hover:border-b-2 hover:border-[#89CFF0]"
+                    className="medium-20 mb-2 cursor-pointer hover:text-[#89CFF0]"
                   >
                     {link.label}
                   </Link>
-                </div>
+                </li>
               ))}
-            </div>
-            <div className="pr-8 pt-4">
-              <Image
-                src="/closeIcon.svg"
-                alt=""
-                width={35}
-                height={30}
-                className="cursor-pointer z-20"
-                onClick={() => setOpenMenuModal(false)}
-              />
-            </div>
+            </ul>
           </div>
         )}
       </div>
