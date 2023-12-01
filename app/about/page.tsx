@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import PictureSlider from "../components/PictureSlider";
 import Button from "../components/Button";
-import { ABOUTME, MODALS } from "../constants";
+import { ABOUT, MODALS } from "../constants";
 import Modal from "../components/Modal";
 
 const About = () => {
@@ -15,17 +15,17 @@ const About = () => {
   return (
     <section className="max-container padding-container pt-20 mb-10">
       <div className="flex flex-col items-center">
-        <h2 className="bold-40">About Me</h2>
-        <p className="mt-2">{ABOUTME.intro}</p>
+        <h2 className="bold-40">About</h2>
+        <p className="mt-2">{ABOUT.intro}</p>
       </div>
       {/* Hiking */}
       <div>
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6">
           <div className="flex flex-col items-center lg:items-start">
             <h4 className="semiBold-24">Hiking</h4>
-            <p className="mt-2">{ABOUTME.hiking.first}</p>
-            <p className="mt-2">{ABOUTME.hiking.second}</p>
-            <p className="mt-2">{ABOUTME.hiking.third}</p>
+            <p className="mt-2">{ABOUT.hiking.first}</p>
+            <p className="mt-2">{ABOUT.hiking.second}</p>
+            <p className="mt-2">{ABOUT.hiking.third}</p>
           </div>
           <PictureSlider />
         </div>
@@ -56,9 +56,9 @@ const About = () => {
           />
           <div className="flex flex-col items-center lg:items-end">
             <h4 className="semiBold-24">Health & Wellness</h4>
-            <p className="mt-2">{ABOUTME.healthWellness.first}</p>
-            <p className="mt-2">{ABOUTME.healthWellness.second}</p>
-            <p className="mt-2">{ABOUTME.healthWellness.third}</p>
+            <p className="mt-2">{ABOUT.healthWellness.first}</p>
+            <p className="mt-2">{ABOUT.healthWellness.second}</p>
+            <p className="mt-2">{ABOUT.healthWellness.third}</p>
           </div>
         </div>
         <div className="flex justify-center mt-8 gap-4">
@@ -81,9 +81,9 @@ const About = () => {
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6">
           <div className="flex flex-col items-center lg:items-start">
             <h4 className="items-center semiBold-24">Movies & TV Shows</h4>
-            <p className="mt-2">{ABOUTME.moviesShows.first}</p>
-            <p className="mt-2">{ABOUTME.moviesShows.second}</p>
-            <p className="mt-2">{ABOUTME.moviesShows.third}</p>
+            <p className="mt-2">{ABOUT.moviesShows.first}</p>
+            <p className="mt-2">{ABOUT.moviesShows.second}</p>
+            <p className="mt-2">{ABOUT.moviesShows.third}</p>
           </div>
           <div className="grid grid-cols-2 gap-4 lg:w-[2000px]">
             <Image

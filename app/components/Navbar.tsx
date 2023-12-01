@@ -74,15 +74,15 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {openMenuModal && (
-          <div className="absolute pt-4 z-0 bg-[#efefef] top-[52px] left-0 flex flex-row justify-between w-full ">
+          <div className="absolute pt-6 z-0 bg-[#efefef] border-b-2 border-[#116D99] top-[52px] left-0 flex flex-row justify-between w-full ">
             <ul className="padding-navbar">
               {NAV_LINKS.map((link) => (
-                <li className="flex gap-8">
+                <li className="flex">
                   <Link
                     href={link.href}
                     key={link.key}
                     onClick={() => setOpenMenuModal(false)}
-                    className="medium-20 mb-2 cursor-pointer hover:text-[#89CFF0]"
+                    className="medium-20 mb-3 cursor-pointer hover:text-[#89CFF0]"
                   >
                     {link.label}
                   </Link>
