@@ -8,7 +8,7 @@ export const NAV_LINKS = [
 
 // HOME SECTION
 export const BIO = {
-  p1: "I’m a 26 year old UX Designer & Software Developer currently working in the Robotics industry. I realized my passion for UX Design when working as a Software Developer for a Vancouver based startup. As someone who likes to understand all the processes involved in creating software, I would regularly meet with our product designer to understand their thought process when developing new sections on our website that I would eventually have to program. From here, I started designing projects for different ideas I had and this made me fall in love.",
+  p1: "I’m a 26 year old UX Designer currently working in the Robotics industry. I realized my passion for UX Design when working as a Software Developer for a Vancouver based startup. As someone who likes to understand all the processes involved in creating software, I would regularly meet with our product designer to understand their thought process when developing new sections on our website that I would eventually have to program. From here, I started designing projects for different ideas I had and this made me fall in love.",
   p2: "My life trajectory eventually sent me to a Robotics startup located in California. With this company, UX Research became a main responsibility as I worked closely with the product and our customers. I would see how they interact with our interface and I would try to understand any pain points to develop a plan to resolve common user issues. Now I find myself eager to learn about the field of UX Design and I’m looking forward to the many ideas I’ll bring to life.",
   quote:
     "“If you are not willing to learn, no one can help you. If you are determined to learn, no one can stop you.”—Zig Ziglar.",

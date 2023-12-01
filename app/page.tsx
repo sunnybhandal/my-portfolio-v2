@@ -16,7 +16,7 @@ export default function Home() {
           className="w-48 lg:w-60"
         />
         <h4 className="semiBold-22 mt-2">Sunny Bhandal</h4>
-        <p className="whitespace-nowrap">UX Designer & Software Developer</p>
+        <p className="whitespace-nowrap">UX Designer</p>
         <div className="flex gap-8 mt-3">
           <Link
             href="https://www.linkedin.com/in/sunnybhandal/"
