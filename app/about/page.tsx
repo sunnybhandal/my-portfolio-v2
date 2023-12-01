@@ -13,9 +13,9 @@ const About = () => {
   const [showsModalOpen, setShowsModalOpen] = useState(false);
 
   return (
-    <section className="max-container padding-container pt-20 mb-10">
+    <section className="max-container padding-container pt-16 lg:pt-20 mb-10">
       <div className="flex flex-col items-center">
-        <h2 className="bold-40">About</h2>
+        <h2 className="bold-36">About</h2>
         <p className="mt-2">{ABOUT.intro}</p>
       </div>
       {/* Hiking */}

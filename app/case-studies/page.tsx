@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const CaseStudies = () => {
   return (
-    <section className="max-container padding-container pt-24 mb-10">
+    <section className="max-container padding-container pt-16 lg:pt-20 mb-10">
       <div className="flex flex-col items-center">
-        <h2 className="bold-40 items-center">Case Studies</h2>
+        <h2 className="bold-36">Case Studies</h2>
         <p className="mt-2">{CASESTUDY.intro}</p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 mt-8 gap-6 lg:gap-2">

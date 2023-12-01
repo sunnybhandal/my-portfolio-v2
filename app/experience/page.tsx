@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Experience = () => {
   return (
-    <section className="max-container flex flex-col gap-10 px-6 md:px-20 lg:px-40 pt-24 mb-10">
+    <section className="max-container flex flex-col gap-10 px-6 md:px-14 lg:px-40 pt-16 lg:pt-20 mb-10">
       <div className="flex flex-col items-center">
         <h2 className="bold-40 items-center">Experience</h2>
       </div>
