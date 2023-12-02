@@ -16,25 +16,25 @@ const About = () => {
     <section className="max-container padding-container pt-16 lg:pt-20 mb-10">
       <div className="flex flex-col items-center">
         <h2 className="bold-36">About</h2>
-        <p className="mt-2">{ABOUT.intro}</p>
+        <p className="mt-2 text-center md:px-14 lg:px-28">{ABOUT.intro}</p>
       </div>
       {/* Hiking */}
       <div>
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6">
-          <div className="flex flex-col items-center lg:items-start">
+          <div className="flex flex-col">
             <h4 className="semiBold-24">Hiking</h4>
             <p className="mt-2">{ABOUT.hiking.first}</p>
             <p className="mt-2">{ABOUT.hiking.second}</p>
             <p className="mt-2">{ABOUT.hiking.third}</p>
+            <div className="flex mt-4">
+              <Button
+                title="My Top Hikes"
+                variant="btn_primary"
+                onClick={() => setHikingModalOpen(true)}
+              />
+            </div>
           </div>
           <PictureSlider />
-        </div>
-        <div className="flex justify-center mt-8">
-          <Button
-            title="My Top Hikes"
-            variant="btn_primary"
-            onClick={() => setHikingModalOpen(true)}
-          />
         </div>
       </div>
       <Modal
@@ -46,26 +46,26 @@ const About = () => {
       />
       {/* Health & Fitness */}
       <div>
-        <div className="flex flex-col lg:flex-row items-center justify-between mt-10 gap-6">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6">
+          <div className="flex flex-col">
+            <h4 className="semiBold-24">Health & Wellness</h4>
+            <p className="mt-2">{ABOUT.healthWellness.first}</p>
+            <p className="mt-2">{ABOUT.healthWellness.second}</p>
+            <p className="mt-2">{ABOUT.healthWellness.third}</p>
+            <div className="flex mt-4 gap-4">
+              <Button
+                title="Interesting People"
+                variant="btn_primary"
+                onClick={() => setHealthModalOpen(true)}
+              />
+            </div>
+          </div>
           <Image
             src="/workingOut.jpg"
             alt="working out"
             width={500}
             height={280}
             className="rounded-lg border-2 border-[#89CFF0]"
-          />
-          <div className="flex flex-col items-center lg:items-end">
-            <h4 className="semiBold-24">Health & Wellness</h4>
-            <p className="mt-2">{ABOUT.healthWellness.first}</p>
-            <p className="mt-2">{ABOUT.healthWellness.second}</p>
-            <p className="mt-2">{ABOUT.healthWellness.third}</p>
-          </div>
-        </div>
-        <div className="flex justify-center mt-8 gap-4">
-          <Button
-            title="Interesting People"
-            variant="btn_primary"
-            onClick={() => setHealthModalOpen(true)}
           />
         </div>
       </div>
@@ -79,11 +79,23 @@ const About = () => {
       {/* Movies & TV Shows */}
       <div>
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6">
-          <div className="flex flex-col items-center lg:items-start">
+          <div className="flex flex-col">
             <h4 className="items-center semiBold-24">Movies & TV Shows</h4>
             <p className="mt-2">{ABOUT.moviesShows.first}</p>
             <p className="mt-2">{ABOUT.moviesShows.second}</p>
             <p className="mt-2">{ABOUT.moviesShows.third}</p>
+            <div className="flex mt-4 gap-4">
+              <Button
+                title="My Top Movies"
+                variant="btn_primary"
+                onClick={() => setMoviesModalOpen(true)}
+              />
+              <Button
+                title="My Top TV Shows"
+                variant="btn_secondary"
+                onClick={() => setShowsModalOpen(true)}
+              />
+            </div>
           </div>
           <div className="grid grid-cols-2 gap-4 lg:w-[2000px]">
             <Image
@@ -116,18 +128,7 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="flex justify-center mt-8 gap-4">
-          <Button
-            title="My Top Movies"
-            variant="btn_primary"
-            onClick={() => setMoviesModalOpen(true)}
-          />
-          <Button
-            title="My Top TV Shows"
-            variant="btn_secondary"
-            onClick={() => setShowsModalOpen(true)}
-          />
-        </div>
+
         <Modal
           title="My Top Movies"
           content={MODALS.movies}
