@@ -4,18 +4,17 @@ import Button from "./components/Button";
 import Link from "next/link";
 
 export default function Home() {
-  // lg:pt-40
   return (
-    <div className="max-container padding-container pt-20 lg:pt-0 flex flex-col lg:flex-row gap-8 lg:gap-20 h-screen items-center">
-      <div className="flex flex-col gap-0 items-center">
+    <div className="max-container padding-home pt-20 lg:pt-0 flex flex-col lg:flex-row gap-8 lg:gap-4 h-screen items-center justify-center">
+      <div className="flex flex-col items-center w-[450px]">
         <Image
           src="headshot.svg"
           alt="headshot"
           width={250}
           height={100}
-          className="w-48 lg:w-60"
+          className="w-48 md:w-56 lg:w-64"
         />
-        <h4 className="semiBold-22 mt-2">Sunny Bhandal</h4>
+        <h4 className="semiBold-22 mt-2 whitespace-nowrap">Sunny Bhandal</h4>
         <p className="whitespace-nowrap">UX Designer</p>
         <div className="flex gap-8 mt-3">
           <Link
@@ -27,10 +26,10 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 lg:w-[600px]">
         <p>{BIO.p1}</p>
         <p>{BIO.p2}</p>
-        <p className="medium-16 mb-6">{BIO.quote}</p>
+        <p className="medium-16">{BIO.quote}</p>
       </div>
     </div>
   );
