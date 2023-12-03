@@ -36,7 +36,7 @@ export const ABOUT = {
   },
   moviesShows: {
     first:
-      "Once you finish watching something, you’re onto the next. This is just how things go for me and has led me to viewing 2,700+ titles. Ever since I created an IMDB account, I found myself constantly hunting down different titles that interested me. In the past, my watch list was monumental, but having experienced all the movies and shows that ever intrigued me has provided a sense of fulfillment. Now it’s just keeping up with what’s upcoming.",
+      "Once you finish watching something, you’re onto the next. This is just how things go for me and has led me to viewing 2,700+ titles. Ever since I created an IMDB account, I found myself constantly hunting down different titles that interested me. In the past, my watch list was monumental, but having experienced all the movies and shows that ever intrigued me has provided a sense of fulfillment.",
     second:
       "What fuels my deep love for movies and shows? It's rooted in the emotions they evoke. The sentiments expressed through these media forms hold profound significance for me. Christopher Nolan stands out as a director who has touched my soul like no other (you may have gathered this from the adjacent images). His unique film style, coupled with the consistently sensational soundtracks, transforms each viewing into a delightful experience.",
     third:
@@ -131,7 +131,7 @@ export const MODALS = {
     "The Wire",
     "Silicon Valley",
     "The Office",
-    "Curb Your Enthusiasm",
+    "The Inbetweeners",
     "Game of Thrones",
   ],
   health_resources: [

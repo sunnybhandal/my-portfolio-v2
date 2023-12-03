@@ -16,9 +16,7 @@ const CaseStudies = () => {
         <div className="flex flex-col items-center">
           <h2 className="semiBold-20 lg:semiBold-22 mb-1">Personal Website</h2>
           <Link
-            href="https://www.figma.com/file/uZEErXqAYSUNBYfpcejCn8/Portfolio?type=design&node-id=0%3A1&mode=design&t=W01hZwUju46ZwADO-1"
-            rel="noopener noreferrer"
-            target="_blank"
+            href="/case-studies/portfolio"
             className="relative flex items-center justify-center"
           >
             <Image

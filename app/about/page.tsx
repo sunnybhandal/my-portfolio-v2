@@ -16,13 +16,13 @@ const About = () => {
     <section className="max-container padding-container pt-16 lg:pt-20 mb-10">
       <div className="flex flex-col items-center">
         <h2 className="bold-36">About</h2>
-        <p className="mt-2 text-center w-full sm:w-[450px] md:w-[600px] px-4 sm:px-10 md:px-24 lg:px-20">
+        <p className="mt-2 text-center w-[300px] sm:w-[450px] md:w-[660px] px-4 sm:px-10 md:px-24 lg:px-20">
           {ABOUT.intro}
         </p>
       </div>
       {/* Hiking */}
       <div>
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6 lg:gap-8">
           <div className="flex flex-col">
             <h4 className="semiBold-24">Hiking</h4>
             <p className="mt-2">{ABOUT.hiking.first}</p>
@@ -48,7 +48,7 @@ const About = () => {
       />
       {/* Health & Fitness */}
       <div>
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6 lg:gap-8">
           <div className="flex flex-col">
             <h4 className="semiBold-24">Health & Wellness</h4>
             <p className="mt-2">{ABOUT.healthWellness.first}</p>
@@ -67,7 +67,7 @@ const About = () => {
             alt="working out"
             width={500}
             height={280}
-            className="rounded-lg border-2 border-[#89CFF0]"
+            className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[500px] lg:w-[400px] xl:w-[90%]"
           />
         </div>
       </div>
@@ -80,7 +80,7 @@ const About = () => {
       />
       {/* Movies & TV Shows */}
       <div>
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6 lg:gap-20 xl:gap-10">
           <div className="flex flex-col">
             <h4 className="items-center semiBold-24">Movies & TV Shows</h4>
             <p className="mt-2">{ABOUT.moviesShows.first}</p>
@@ -99,7 +99,7 @@ const About = () => {
               />
             </div>
           </div>
-          <div className="grid grid-cols-2  md:grid-cols-4 lg:grid-cols-2 gap-4 lg:w-[2000px]">
+          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 gap-4 lg:w-[2000px] xl:w-[2500px]">
             <Image
               src="/interstellar.jpeg"
               alt="interstellar"
