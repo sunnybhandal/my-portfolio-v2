@@ -17,7 +17,7 @@ export const BIO = {
 // ABOUT SECTION
 export const ABOUT = {
   intro:
-    "Exploring a vast amount of interests is where I find my joy. Among the countless activities that capture my attention, you'll often find me, navigating the intricate landscapes of the Rocky Mountains, immersed in the world of wellness, and engulfed by magnificent movies/tv shows.",
+    "Exploring a vast amount of interests is where I find my joy. Here are just a few of them.",
   hiking: {
     first:
       "In 2020, the pandemic led me down an unexpected path – I began hiking. Surprisingly, I wasn't particularly outdoorsy at the time, and the idea of hiking had never piqued my interest. However, a turning point came when a friend invited me to join them for a hike up Heart Mountain in the Kananaskis/Canmore area. It was a challenging hike, taking around 6.5 hours, and it turned out to be a transformative experience.",

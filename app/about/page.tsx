@@ -16,7 +16,9 @@ const About = () => {
     <section className="max-container padding-container pt-16 lg:pt-20 mb-10">
       <div className="flex flex-col items-center">
         <h2 className="bold-36">About</h2>
-        <p className="mt-2 text-center md:px-14 lg:px-28">{ABOUT.intro}</p>
+        <p className="mt-2 text-center w-full sm:w-[450px] md:w-[600px] px-4 sm:px-10 md:px-24 lg:px-20">
+          {ABOUT.intro}
+        </p>
       </div>
       {/* Hiking */}
       <div>
@@ -97,34 +99,34 @@ const About = () => {
               />
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4 lg:w-[2000px]">
+          <div className="grid grid-cols-2  md:grid-cols-4 lg:grid-cols-2 gap-4 lg:w-[2000px]">
             <Image
               src="/interstellar.jpeg"
               alt="interstellar"
               width={150}
               height={150}
-              className="rounded-lg border-2 border-[#89CFF0] "
+              className="rounded-lg border-2 border-[#89CFF0] w-32 md:w-full lg:w-48"
             />
             <Image
               src="/inception.jpeg"
               alt="inception"
               width={150}
               height={150}
-              className="rounded-lg border-2 border-[#89CFF0] "
+              className="rounded-lg border-2 border-[#89CFF0] w-32 md:w-full lg:w-48"
             />
             <Image
               src="/breakingBad.jpg"
               alt="interstellar"
               width={150}
               height={150}
-              className="rounded-lg border-2 border-[#89CFF0]"
+              className="rounded-lg border-2 border-[#89CFF0] w-32 md:w-full lg:w-48"
             />
             <Image
               src="/darkKnightRises.jpg"
               alt="Dark Knight Rises"
               width={150}
               height={150}
-              className="rounded-lg border-2 border-[#89CFF0] "
+              className="rounded-lg border-2 border-[#89CFF0] w-32 md:w-full lg:w-48"
             />
           </div>
         </div>
