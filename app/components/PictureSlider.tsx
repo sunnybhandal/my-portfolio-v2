@@ -15,7 +15,7 @@ const PictureSlider = () => {
               alt=""
               width={500}
               height={280}
-              className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[500px] lg:w-[4320px]"
+              className="rounded-lg border-2 border-[#89CFF0] max-w-[365px] md:max-w-[600px] lg:max-w-[800px]"
             />
             <h4 className="absolute top-2 left-4 medium-18">Mount St. Piran</h4>
           </div>

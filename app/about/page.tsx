@@ -67,7 +67,7 @@ const About = () => {
             alt="working out"
             width={500}
             height={280}
-            className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[500px] lg:w-[400px] xl:w-[90%]"
+            className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[500px]"
           />
         </div>
       </div>
