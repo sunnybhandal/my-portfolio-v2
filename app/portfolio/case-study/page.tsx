@@ -3,9 +3,9 @@ import React from "react";
 const CaseStudy = () => {
   return (
     <section className="max-container padding-container pt-16 lg:pt-20 mb-10">
-      <div className="flex flex-col items-center">
-        <h2 className="bold-36">Banking Case Study (Pending)</h2>
-        <p className="mt-2 text-center w-[300px] sm:w-[450px] md:w-[660px] px-4 sm:px-10 md:px-24 lg:px-20">
+      <div className="flex flex-col items-center text-center">
+        <h2 className="bold-32">Banking Case Study (Pending)</h2>
+        <p className="mt-2 text-center w-[350px] sm:w-[500px] md:w-[650px]">
           Nothing here yet
         </p>
       </div>
