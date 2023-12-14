@@ -10,7 +10,8 @@ const PersonalWebsite = () => {
         <h2 className="bold-36">Personal Website (Pending)</h2>
         <p className="mt-2 text-center w-[300px] sm:w-[450px] md:w-[660px] px-4 sm:px-10 md:px-24 lg:px-20">
           The design of my previous website was super boring and I started to
-          hate looking at it.
+          hate looking at it. This one may not be that much better since I am
+          limited by my coding skills.
         </p>
       </div>
       <div className="mt-10 flex flex-col gap-4">
