@@ -4,11 +4,37 @@ import Image from "next/image";
 
 const Experience = () => {
   return (
-    <section className="max-container flex flex-col gap-10 px-6 md:px-14 lg:px-40 pt-16 lg:pt-20 mb-10">
+    <section className="max-container flex flex-col gap-8 px-6 md:px-14 lg:px-40 pt-16 lg:pt-20 mb-10">
       <div className="flex flex-col items-center">
         <h2 className="bold-40 items-center">Experience</h2>
       </div>
-      <div className="">
+      <div>
+        <div className="flex gap-2 w-full">
+          <Image src="/freelance.svg" alt="Ohmni Logo" width={80} height={80} />
+          <div className="flex flex-col w-full justify-end items-start">
+            <h2 className="text-[#116D99] semiBold-20 lg:semiBold-22">
+              UI/UX Designer
+            </h2>
+            <div className="lg:flex w-full justify-between">
+              <h4 className="medium-18">Freelance</h4>
+              <h4 className="medium-18">Dec 2023 - Present</h4>
+            </div>
+          </div>
+        </div>
+        <ul className="list-none mt-4 flex flex-col gap-4">
+          <li className="flex">
+            <span className="mr-2 -mt-1 text-2xl text-[#89CFF0]">&#8226;</span>
+            {EXPERIENCE.freelance.first}
+          </li>
+          <li className="flex">
+            <span className="mr-2 -mt-1 text-2xl text-[#89CFF0]">&#8226;</span>
+            {EXPERIENCE.freelance.second}
+          </li>
+        </ul>
+      </div>
+      <hr className="border-2 border-[#89CFF0] rounded-lg" />
+
+      <div>
         <div className="flex gap-2 w-full">
           <Image src="/ohmniLabs.svg" alt="Ohmni Logo" width={80} height={80} />
           <div className="flex flex-col w-full justify-end items-start">
@@ -40,8 +66,8 @@ const Experience = () => {
           </li>
         </ul>
       </div>
-      <hr className="border-2 border-[#89CFF0]" />
-      <div className="">
+      <hr className="border-2 border-[#89CFF0] rounded-lg" />
+      <div>
         <div className="flex gap-2 w-full">
           <Image
             src="/simplyAsk.svg"

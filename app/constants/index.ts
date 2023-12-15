@@ -178,8 +178,8 @@ export const MODALS = {
   ],
 };
 
-// CASE STUDIES SECTION
-export const CASESTUDY = {
+// PORTFOLIO SECTION
+export const PORTFOLIO = {
   intro:
     "Here are the different projects and case studies I'm either currently working on or have worked on.",
   portfolio: {
@@ -189,11 +189,17 @@ export const CASESTUDY = {
 
 // EXPERIENCE SECTION
 export const EXPERIENCE = {
+  freelance: {
+    first:
+      "Led comprehensive efforts encompassing research, user story development, wireframing, prototyping, and design for the mobile view of an Event Registration app",
+    second:
+      "Partnered with developers to validate workflows to promote alignment across the project",
+  },
   ohmniLabs: {
     first:
       "Effectively managed our robotics trial programs and delivered compelling product presentations to potential clients, resulting in revenue generation exceeding $1 million",
     second:
-      "Engaged in research, design, and prototyping of software to develop a more seamless user experience, aligning with OhmniLabs' customer-centric approach",
+      "Engaged in research, design, and prototyping of new software features to develop a more seamless user experience, garnering an abundance of positive client feedback",
     third:
       "Delivered exceptional customer support to our Healthcare clients, fostering long-lasting relationships that produced repeat business",
     fourth:

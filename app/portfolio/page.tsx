@@ -1,5 +1,5 @@
 import React from "react";
-import { CASESTUDY } from "../constants";
+import { PORTFOLIO } from "../constants";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -9,7 +9,7 @@ const CaseStudies = () => {
       <div className="flex flex-col items-center">
         <h2 className="bold-32">Case Studies</h2>
         <p className="mt-2 text-center w-[350px] sm:w-[500px] md:w-[650px]">
-          {CASESTUDY.intro}
+          {PORTFOLIO.intro}
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 mt-8 gap-6 lg:gap-6">
