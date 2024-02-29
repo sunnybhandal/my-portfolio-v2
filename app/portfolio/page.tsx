@@ -20,10 +20,10 @@ const CaseStudies = () => {
             className="relative flex items-center justify-center"
           >
             <Image
-              src="/portfolioFigma.png"
+              src="/portfolio.svg"
               alt="Portfolio Figma"
-              width={429}
-              height={280}
+              width={500}
+              height={300}
               className="z-10 rounded-lg border-2 border-[#89CFF0] hover:opacity-30"
             />
             <p className="absolute semiBold-18">View Project</p>
@@ -38,10 +38,10 @@ const CaseStudies = () => {
             className="relative flex items-center justify-center"
           >
             <Image
-              src="/eventFigma.png"
+              src="/eventReg.svg"
               alt="Event Registration"
-              width={415}
-              height={500}
+              width={500}
+              height={300}
               className="z-10 rounded-lg border-2 border-[#89CFF0] hover:opacity-30"
             />
             <p className="absolute semiBold-18">View Project</p>
@@ -56,10 +56,10 @@ const CaseStudies = () => {
             className="relative flex items-center justify-center"
           >
             <Image
-              src="/design.jpg"
+              src="/bank.svg"
               alt="Banking App"
-              width={415}
-              height={280}
+              width={500}
+              height={300}
               className="z-10 rounded-lg border-2 border-[#89CFF0] hover:opacity-30"
             />
             <p className="absolute semiBold-18">View Project</p>
