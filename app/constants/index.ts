@@ -47,23 +47,18 @@ export const ABOUT = {
 export const HIKING_PICS = [
   {
     id: 1,
-    label: "Mount St. Piran",
-    file: "/stPiran.png",
+    label: "Mount Temple",
+    file: "/temple.svg",
   },
   {
     id: 2,
-    label: "Mount Temple",
-    file: "/temple.png",
+    label: "Mount Rundle",
+    file: "/rundle.svg",
   },
   {
     id: 3,
-    label: "EEOR",
-    file: "/eeor.png",
-  },
-  {
-    id: 4,
-    label: "Mount Sulphur",
-    file: "/sulphur.png",
+    label: "Cascade Mountain",
+    file: "/cascade.svg",
   },
 ];
 

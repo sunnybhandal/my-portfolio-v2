@@ -15,9 +15,11 @@ const PictureSlider = () => {
               alt=""
               width={500}
               height={280}
-              className="rounded-lg border-2 border-[#89CFF0] max-w-[365px] md:max-w-[600px] lg:max-w-[800px]"
+              className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[600px] lg:max-w-[500px] xl:max-w-[600px]"
             />
-            <h4 className="absolute top-2 left-4 medium-18">Mount St. Piran</h4>
+            <h4 className="absolute top-2 left-4 medium-18">
+              {HIKING_PICS[0].label}
+            </h4>
           </div>
 
           <div className="flex gap-2">
@@ -33,10 +35,6 @@ const PictureSlider = () => {
               className="bg-[#A8A8A8] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
               onClick={() => setPictureState(3)}
             ></span>
-            <span
-              className="bg-[#A8A8A8] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
-              onClick={() => setPictureState(4)}
-            ></span>
           </div>
         </>
       )}
@@ -48,9 +46,11 @@ const PictureSlider = () => {
               alt=""
               width={500}
               height={280}
-              className="rounded-lg border-2 border-[#89CFF0] max-w-[365px] md:max-w-[600px] lg:max-w-[800px]"
+              className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[600px] lg:max-w-[500px] xl:max-w-[600px]"
             />
-            <h4 className="absolute top-2 left-4 medium-18">Mount Temple</h4>
+            <h4 className="absolute top-2 left-4 medium-18">
+              {HIKING_PICS[1].label}
+            </h4>
           </div>
           <div className="flex gap-2">
             <span
@@ -65,10 +65,6 @@ const PictureSlider = () => {
               className="bg-[#A8A8A8] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
               onClick={() => setPictureState(3)}
             ></span>
-            <span
-              className="bg-[#A8A8A8] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
-              onClick={() => setPictureState(4)}
-            ></span>
           </div>
         </>
       )}
@@ -80,10 +76,10 @@ const PictureSlider = () => {
               alt=""
               width={500}
               height={280}
-              className="rounded-lg border-2 border-[#89CFF0] max-w-[365px] md:max-w-[600px] lg:max-w-[800px]"
+              className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[600px] lg:max-w-[500px] xl:max-w-[600px]"
             />
             <h4 className="absolute top-2 left-4 medium-18">
-              East End of Rundle
+              {HIKING_PICS[2].label}
             </h4>
           </div>
           <div className="flex gap-2">
@@ -98,42 +94,6 @@ const PictureSlider = () => {
             <span
               className="bg-[#89CFF0] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
               onClick={() => setPictureState(3)}
-            ></span>
-            <span
-              className="bg-[#A8A8A8] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
-              onClick={() => setPictureState(4)}
-            ></span>
-          </div>
-        </>
-      )}
-      {pictureState === 4 && (
-        <>
-          <div className="relative">
-            <Image
-              src={HIKING_PICS[3].file}
-              alt=""
-              width={500}
-              height={280}
-              className="rounded-lg border-2 border-[#89CFF0] max-w-[365px] md:max-w-[600px] lg:max-w-[800px]"
-            />
-            <h4 className="absolute top-2 left-4 medium-18">Mount Sulphur</h4>
-          </div>
-          <div className="flex gap-2">
-            <span
-              className="bg-[#A8A8A8] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
-              onClick={() => setPictureState(1)}
-            ></span>
-            <span
-              className="bg-[#A8A8A8] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
-              onClick={() => setPictureState(2)}
-            ></span>
-            <span
-              className="bg-[#A8A8A8] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
-              onClick={() => setPictureState(3)}
-            ></span>
-            <span
-              className="bg-[#89CFF0] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
-              onClick={() => setPictureState(4)}
             ></span>
           </div>
         </>

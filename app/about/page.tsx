@@ -63,11 +63,11 @@ const About = () => {
             </div>
           </div>
           <Image
-            src="/workingOut.jpg"
+            src="/gym.svg"
             alt="working out"
             width={500}
             height={280}
-            className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[500px]"
+            className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[600px] lg:max-w-[500px] xl:max-w-[600px]"
           />
         </div>
       </div>
@@ -80,7 +80,7 @@ const About = () => {
       />
       {/* Movies & TV Shows */}
       <div>
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6 lg:gap-20 xl:gap-10">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6 lg:gap-8">
           <div className="flex flex-col">
             <h4 className="items-center semiBold-24">Movies & TV Shows</h4>
             <p className="mt-2">{ABOUT.moviesShows.first}</p>
@@ -99,36 +99,13 @@ const About = () => {
               />
             </div>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 gap-4 lg:w-[2000px] xl:w-[2500px]">
-            <Image
-              src="/interstellar.jpeg"
-              alt="interstellar"
-              width={150}
-              height={150}
-              className="rounded-lg border-2 border-[#89CFF0] w-32 md:w-full lg:w-48"
-            />
-            <Image
-              src="/inception.jpeg"
-              alt="inception"
-              width={150}
-              height={150}
-              className="rounded-lg border-2 border-[#89CFF0] w-32 md:w-full lg:w-48"
-            />
-            <Image
-              src="/breakingBad.jpg"
-              alt="interstellar"
-              width={150}
-              height={150}
-              className="rounded-lg border-2 border-[#89CFF0] w-32 md:w-full lg:w-48"
-            />
-            <Image
-              src="/darkKnightRises.jpg"
-              alt="Dark Knight Rises"
-              width={150}
-              height={150}
-              className="rounded-lg border-2 border-[#89CFF0] w-32 md:w-full lg:w-48"
-            />
-          </div>
+          <Image
+            src="/interstellar.svg"
+            alt="working out"
+            width={500}
+            height={280}
+            className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[600px] lg:max-w-[500px] xl:max-w-[600px]"
+          />
         </div>
 
         <Modal
