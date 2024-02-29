@@ -29,7 +29,7 @@ const Navbar = () => {
     <div
       className={`padding-navbar bg-main fixed py-2 w-screen z-20 ${
         direction == "down"
-          ? `transition-all transform border-b-2 border-[#116D99]`
+          ? `transition-all transform border-b-2 border-[#116D99] shadow-md`
           : `border-none`
       }`}
     >

@@ -16,10 +16,10 @@ body {
 
 @layer utilities {
   .btn_primary {
-    @apply bg-[#89CFF0] px-4 md:px-8 py-1 text-black transition-all transform hover:translate-y-[-2px];
+    @apply bg-[#89CFF0] hover:bg-main hover:text-[#89CFF0] hover:border-[#89CFF0] border-transparent border-2 px-4 md:px-8 py-1 text-black transition-all transform;
   }
   .btn_secondary {
-    @apply bg-[#116D99] px-4 md:px-8 py-1 text-white transition-all transform hover:translate-y-[-2px];
+    @apply bg-[#116D99] hover:bg-main hover:text-[#116D99] hover:border-[#116D99] border-transparent border-2 px-4 md:px-8 py-1 text-white transition-all transform;
   }
 
   .max-container {

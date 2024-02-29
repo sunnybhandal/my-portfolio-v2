@@ -8,7 +8,7 @@ export const NAV_LINKS = [
 
 // HOME SECTION
 export const BIO = {
-  p1: "I’m a 26 year old UI/UX Designer currently working in the Robotics industry. I realized my passion for UI/UX Design when working as a Software Developer for a Vancouver based startup. As someone who likes to understand all the processes involved in creating software, I would regularly meet with our product designer to understand their thought process when developing new sections on our website that I would eventually have to program. From here, I started designing projects for different ideas I had and this made me fall in love.",
+  p1: "I’m a 27 year old UI/UX Designer currently working in the Robotics industry. I realized my passion for UI/UX Design when working as a Software Developer for a Vancouver based startup. As someone who likes to understand all the processes involved in creating software, I would regularly meet with our product designer to understand their thought process when developing new sections on our website that I would eventually have to program. From here, I started designing projects for different ideas I had and this made me fall in love.",
   p2: "My life trajectory eventually sent me to a Robotics startup located in California. With this company, UX Research became a main responsibility as I worked closely with the product and our customers. I would see how they interact with our interface and I would try to understand any pain points to develop a plan to resolve common user issues. Now I find myself eager to learn about the field of UI/UX Design and I’m looking forward to the many ideas I’ll bring to life.",
   quote:
     "“If you are not willing to learn, no one can help you. If you are determined to learn, no one can stop you.”—Zig Ziglar.",
@@ -38,7 +38,7 @@ export const ABOUT = {
     first:
       "Once you finish watching something, you’re onto the next. This is just how things go for me and has led me to viewing 2,700+ titles. Ever since I created an IMDB account, I found myself constantly hunting down different titles that interested me. In the past, my watch list was monumental, but having experienced all the movies and shows that ever intrigued me has provided a sense of fulfillment.",
     second:
-      "What fuels my deep love for movies and shows? It's rooted in the emotions they evoke. The sentiments expressed through these media forms hold profound significance for me. Christopher Nolan stands out as a director who has touched my soul like no other (you may have gathered this from the adjacent images). His unique film style, coupled with the consistently sensational soundtracks, transforms each viewing into a delightful experience.",
+      "What fuels my deep love for movies and shows? It's rooted in the emotions they evoke. The sentiments expressed through these media forms hold profound significance for me. Christopher Nolan stands out as a director who has touched my soul like no other. His unique film style, coupled with the consistently sensational soundtracks, transforms each viewing into a delightful experience.",
     third:
       "Check out the buttons below to discover the titles I absolutely adore.",
   },
@@ -70,10 +70,6 @@ export const HIKING_PICS = [
 export const MODALS = {
   hiking: [
     {
-      label: "Wasootch Peak",
-      href: "https://www.alltrails.com/trail/canada/alberta/wasootch-peak?search=true",
-    },
-    {
       label: "Mount Yamnuska",
       href: "https://www.alltrails.com/trail/canada/alberta/mount-yamnuska-traverse-and-west-col-descent",
     },
@@ -96,6 +92,10 @@ export const MODALS = {
     {
       label: "Sarrail Ridge",
       href: "https://www.alltrails.com/trail/canada/alberta/sarrail-ridge-via-rawson-lake-trail?u=i",
+    },
+    {
+      label: "Wasootch Peak",
+      href: "https://www.alltrails.com/trail/canada/alberta/wasootch-peak?search=true",
     },
     {
       label: "Crypt Lake",
