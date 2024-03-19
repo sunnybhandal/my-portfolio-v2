@@ -16,18 +16,15 @@ const About = () => {
     <section className="max-container padding-container pt-16 lg:pt-20 mb-10">
       <div className="flex flex-col items-center">
         <h2 className="bold-32">About</h2>
-        <p className="mt-2 text-center w-[300px] sm:w-[450px] md:w-[660px] px-4 sm:px-10 md:px-24 lg:px-20">
-          {ABOUT.intro}
-        </p>
       </div>
       {/* Hiking */}
       <div>
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6 lg:gap-8">
+        <div className="flex flex-col lg:flex-row items-center justify-between mt-10 gap-6 lg:gap-8">
+          <PictureSlider />
           <div className="flex flex-col">
             <h4 className="semiBold-24">Hiking</h4>
             <p className="mt-2">{ABOUT.hiking.first}</p>
             <p className="mt-2">{ABOUT.hiking.second}</p>
-            <p className="mt-2">{ABOUT.hiking.third}</p>
             <div className="flex mt-4">
               <Button
                 title="My Top Hikes"
@@ -36,7 +33,6 @@ const About = () => {
               />
             </div>
           </div>
-          <PictureSlider />
         </div>
       </div>
       <Modal
@@ -48,7 +44,14 @@ const About = () => {
       />
       {/* Health & Fitness */}
       <div>
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6 lg:gap-8">
+        <div className="flex flex-col lg:flex-row items-center justify-between mt-10 gap-6 lg:gap-8">
+          <Image
+            src="/gym.svg"
+            alt="working out"
+            width={500}
+            height={280}
+            className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[600px] lg:max-w-[500px] xl:max-w-[600px]"
+          />
           <div className="flex flex-col">
             <h4 className="semiBold-24">Health & Wellness</h4>
             <p className="mt-2">{ABOUT.healthWellness.first}</p>
@@ -62,13 +65,6 @@ const About = () => {
               />
             </div>
           </div>
-          <Image
-            src="/gym.svg"
-            alt="working out"
-            width={500}
-            height={280}
-            className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[600px] lg:max-w-[500px] xl:max-w-[600px]"
-          />
         </div>
       </div>
       <Modal
@@ -80,7 +76,14 @@ const About = () => {
       />
       {/* Movies & TV Shows */}
       <div>
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-10 gap-6 lg:gap-8">
+        <div className="flex flex-col lg:flex-row items-center justify-between mt-10 gap-6 lg:gap-8">
+          <Image
+            src="/interstellar.svg"
+            alt="working out"
+            width={500}
+            height={280}
+            className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[600px] lg:max-w-[500px] xl:max-w-[600px]"
+          />
           <div className="flex flex-col">
             <h4 className="items-center semiBold-24">Movies & TV Shows</h4>
             <p className="mt-2">{ABOUT.moviesShows.first}</p>
@@ -99,13 +102,6 @@ const About = () => {
               />
             </div>
           </div>
-          <Image
-            src="/interstellar.svg"
-            alt="working out"
-            width={500}
-            height={280}
-            className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[600px] lg:max-w-[500px] xl:max-w-[600px]"
-          />
         </div>
 
         <Modal
