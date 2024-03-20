@@ -27,7 +27,7 @@ body {
   }
 
   .padding-navbar {
-    @apply px-6 md:px-12 lg:px-16;
+    @apply px-6 sm:px-14 md:px-28 lg:px-16;
   }
 
   .padding-container {

@@ -33,7 +33,7 @@ const Navbar = () => {
           : `border-none`
       }`}
     >
-      <div className="flex justify-between">
+      <div className="flex justify-between lg:justify-center lg:space-x-[55%] xl:space-x-[65%] 2xl:space-x-[900px]">
         <Link href="/">
           <Image src="/logo.svg" alt="logo" width={35} height={30} />
         </Link>
