@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section className="max-container flex flex-col gap-8 px-6 sm:px-14 md:px-28 lg:px-56 xl:px-72 pt-16 lg:pt-20 mb-10">
       <div className="flex flex-col items-center">
-        <h2 className="bold-40 items-center">Experience</h2>
+        <h2 className="bold-32 items-center">Experience</h2>
       </div>
       <div>
         <div className="flex gap-2 w-full">
