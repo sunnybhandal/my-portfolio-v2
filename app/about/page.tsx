@@ -16,6 +16,33 @@ const About = () => {
     <section className="max-container padding-container pt-16 lg:pt-20 mb-10">
       <div className="flex flex-col items-center">
         <h2 className="bold-32">About</h2>
+        <div className="pt-6">
+          <div className="bg-[#666464] w-[280px] md:w-[420px] lg:w-[500px] h-[70px] md:h-[90px] rounded-lg shadow-lg flex flex-col items-center justify-center">
+            <div className="flex gap-10 md:gap-16 lg:gap-24">
+              <Image
+                src="/icon_mountain.svg"
+                alt="weight"
+                width={60}
+                height={30}
+                className="w-12 md:w-16"
+              />
+              <Image
+                src="/icon_weight.svg"
+                alt="weight"
+                width={70}
+                height={30}
+                className="w-14 md:w-20"
+              />
+              <Image
+                src="/icon_camera.svg"
+                alt="weight"
+                width={50}
+                height={30}
+                className="w-10 md:w-12"
+              />
+            </div>
+          </div>
+        </div>
       </div>
       {/* Hiking */}
       <div>
