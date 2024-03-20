@@ -7,6 +7,11 @@ import Link from "next/link";
 const Navbar = () => {
   const [openMenuModal, setOpenMenuModal] = useState(false);
   const [direction, setDirection] = useState("up");
+  const [isOpen, setIsOpen] = useState(false);
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+    setOpenMenuModal(!openMenuModal);
+  };
   let oldScrollY = 0;
 
   const controlDirection = () => {
@@ -50,7 +55,7 @@ const Navbar = () => {
           ))}
         </div>
 
-        <div className="flex items-center lg:hidden">
+        {/* <div className="flex items-center lg:hidden">
           {openMenuModal ? (
             <Image
               src="/closeIcon.svg"
@@ -70,7 +75,32 @@ const Navbar = () => {
               onClick={() => setOpenMenuModal(true)}
             />
           )}
-        </div>
+        </div> */}
+        <button
+          onClick={handleClick}
+          className={`flex flex-col justify-center items-center lg:hidden ${
+            isOpen ? "gap-0" : "gap-1"
+          }`}
+        >
+          <span
+            className={`bg-black block transition-all duration-300 ease-out 
+                    h-0.5 w-7 rounded-sm ${
+                      isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
+                    }`}
+          ></span>
+          <span
+            className={`bg-black block transition-all duration-300 ease-out 
+                    h-0.5 w-7 rounded-sm my-0.5 ${
+                      isOpen ? "opacity-0" : "opacity-100"
+                    }`}
+          ></span>
+          <span
+            className={`bg-black block transition-all duration-300 ease-out 
+                    h-0.5 w-7 rounded-sm ${
+                      isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
+                    }`}
+          ></span>
+        </button>
 
         {/* Mobile Menu */}
         {openMenuModal && (
