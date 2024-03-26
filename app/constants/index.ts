@@ -173,7 +173,7 @@ export const MODALS = {
 
 // PORTFOLIO SECTION
 export const PORTFOLIO = {
-  intro: "(Pending)",
+  intro: "(Coming Soon)",
   portfolio: {
     first: "",
   },

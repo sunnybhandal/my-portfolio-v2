@@ -11,11 +11,7 @@ const CaseStudies = () => {
         <p className="mt-2 text-center">{PORTFOLIO.intro}</p>
       </div>
       <div>
-        <ol className="list-decimal">
-          <li>Problem</li>
-          <li>1</li>
-          <li>1</li>
-        </ol>
+        <ol className="list-decimal"></ol>
       </div>
     </section>
   );
