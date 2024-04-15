@@ -8,7 +8,7 @@ const Navbar = () => {
   const [openMenuModal, setOpenMenuModal] = useState(false);
   const [direction, setDirection] = useState("up");
   const [isOpen, setIsOpen] = useState(false);
-  const handleClick = () => {
+  const handleMenuClick = () => {
     setIsOpen(!isOpen);
     setOpenMenuModal(!openMenuModal);
   };
@@ -39,7 +39,13 @@ const Navbar = () => {
       }`}
     >
       <div className="flex justify-between lg:justify-center lg:space-x-[55%] xl:space-x-[65%] 2xl:space-x-[900px]">
-        <Link href="/">
+        <Link
+          href="/"
+          onClick={() => {
+            setOpenMenuModal(false);
+            setIsOpen(false);
+          }}
+        >
           <Image src="/logo.svg" alt="logo" width={35} height={30} />
         </Link>
 
@@ -55,29 +61,8 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* <div className="flex items-center lg:hidden">
-          {openMenuModal ? (
-            <Image
-              src="/closeIcon.svg"
-              alt=""
-              width={33}
-              height={30}
-              className="cursor-pointer z-20"
-              onClick={() => setOpenMenuModal(false)}
-            />
-          ) : (
-            <Image
-              src="/hamburger.svg"
-              alt=""
-              width={35}
-              height={30}
-              className="cursor-pointer z-20"
-              onClick={() => setOpenMenuModal(true)}
-            />
-          )}
-        </div> */}
         <button
-          onClick={handleClick}
+          onClick={handleMenuClick}
           className={`flex flex-col justify-center items-center lg:hidden ${
             isOpen ? "gap-0" : "gap-1"
           }`}
@@ -111,7 +96,10 @@ const Navbar = () => {
                   <Link
                     href={link.href}
                     key={link.key}
-                    onClick={() => setOpenMenuModal(false)}
+                    onClick={() => {
+                      setOpenMenuModal(false);
+                      setIsOpen(false);
+                    }}
                     className="medium-20 mb-3 cursor-pointer hover:text-[#89CFF0]"
                   >
                     {link.label}
