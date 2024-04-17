@@ -14,17 +14,16 @@ export default function Home() {
           height={100}
           className="w-48 md:w-56 lg:w-64"
         />
-        <h4 className="semiBold-22 mt-2 whitespace-nowrap">Sunny Bhandal</h4>
-        <p className="whitespace-nowrap">UI/UX Designer</p>
-        <div className="flex gap-8 mt-3">
-          <Link
-            href="https://www.linkedin.com/in/sunnybhandal/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <Button title="LinkedIn" variant="btn_primary" />
-          </Link>
-        </div>
+        <h4 className="semiBold-24 mt-2 whitespace-nowrap">Sunny Bhandal</h4>
+        <p className="regular-18 whitespace-nowrap mt-1">UI/UX Designer</p>
+        <Link
+          href="https://www.linkedin.com/in/sunnybhandal/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="flex gap-8 mt-4"
+        >
+          <Button title="LinkedIn" variant="btn_primary" />
+        </Link>
       </div>
       <div className="flex flex-col gap-4 lg:w-[600px]">
         <p>{BIO.p1}</p>
