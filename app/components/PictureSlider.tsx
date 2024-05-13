@@ -28,11 +28,11 @@ const PictureSlider = () => {
               onClick={() => setPictureState(1)}
             ></span>
             <span
-              className="bg-[#A8A8A8] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
+              className="bg-[#D8D6D6] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
               onClick={() => setPictureState(2)}
             ></span>
             <span
-              className="bg-[#A8A8A8] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
+              className="bg-[#D8D6D6] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
               onClick={() => setPictureState(3)}
             ></span>
           </div>
@@ -54,7 +54,7 @@ const PictureSlider = () => {
           </div>
           <div className="flex gap-3 lg:gap-4">
             <span
-              className="bg-[#A8A8A8] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
+              className="bg-[#D8D6D6] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
               onClick={() => setPictureState(1)}
             ></span>
             <span
@@ -62,7 +62,7 @@ const PictureSlider = () => {
               onClick={() => setPictureState(2)}
             ></span>
             <span
-              className="bg-[#A8A8A8] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
+              className="bg-[#D8D6D6] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
               onClick={() => setPictureState(3)}
             ></span>
           </div>
@@ -84,11 +84,11 @@ const PictureSlider = () => {
           </div>
           <div className="flex gap-3 lg:gap-4">
             <span
-              className="bg-[#A8A8A8] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
+              className="bg-[#D8D6D6] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
               onClick={() => setPictureState(1)}
             ></span>
             <span
-              className="bg-[#A8A8A8] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
+              className="bg-[#D8D6D6] p-3 rounded-xl md:p-4 md:rounded-2xl cursor-pointer"
               onClick={() => setPictureState(2)}
             ></span>
             <span
