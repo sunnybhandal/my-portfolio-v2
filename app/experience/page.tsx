@@ -13,7 +13,7 @@ const Experience = () => {
           <Image src="/freelance.svg" alt="Ohmni Logo" width={80} height={80} />
           <div className="flex flex-col w-full justify-end items-start">
             <h2 className="text-[#116D99] semiBold-20 lg:semiBold-22">
-              UI/UX Designer
+              Product Designer
             </h2>
             <div className="lg:flex w-full justify-between">
               <h4 className="medium-18">Freelance</h4>
