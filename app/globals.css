@@ -63,7 +63,9 @@ body {
   .medium-20 {
     @apply text-[20px] font-[500];
   }
-
+  .medium-24 {
+    @apply text-[24px] font-[500];
+  }
   .semiBold-20 {
     @apply text-[20px] font-[600];
   }

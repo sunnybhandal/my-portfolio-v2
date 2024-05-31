@@ -100,7 +100,7 @@ const Navbar = () => {
                       setOpenMenuModal(false);
                       setIsOpen(false);
                     }}
-                    className="medium-20 mb-3 cursor-pointer hover:text-[#89CFF0]"
+                    className="medium-24 mb-4 cursor-pointer hover:text-[#89CFF0]"
                   >
                     {link.label}
                   </Link>
