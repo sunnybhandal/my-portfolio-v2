@@ -49,7 +49,7 @@ const Navbar = () => {
           <Image src="/logo.svg" alt="logo" width={40} height={30} />
         </Link>
 
-        <div className="hidden lg:flex gap-6 items-center">
+        <div className="hidden lg:flex gap-8 items-center">
           {NAV_LINKS.map((link) => (
             <Link
               href={link.href}
@@ -89,8 +89,8 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {openMenuModal && (
-          <div className="absolute pt-6 z-0 bg-[#efefef] border-b-2 border-[#116D99] top-[52px] left-0 flex flex-row justify-between w-full ">
-            <ul className="padding-navbar">
+          <div className="absolute pt-6 z-0 bg-[#efefef] border-b-2 border-[#116D99] top-[52px] left-0 w-full ">
+            <ul className="padding-navbar flex flex-col items-end">
               {NAV_LINKS.map((link) => (
                 <li className="flex">
                   <Link

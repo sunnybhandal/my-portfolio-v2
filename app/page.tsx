@@ -25,7 +25,7 @@ export default function Home() {
           <Button title="LinkedIn" variant="btn_primary" />
         </Link>
       </div>
-      <div className="flex flex-col gap-4 lg:w-[600px]">
+      <div className="flex flex-col gap-4 lg:w-[600px] pb-2 lg:pb-0">
         <p>{BIO.p1}</p>
         <p>{BIO.p2}</p>
         <p className="medium-16">{BIO.quote}</p>
