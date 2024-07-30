@@ -63,10 +63,6 @@ export const HIKING_PICS = [
 export const MODALS = {
   hiking: [
     {
-      label: "Mount Yamnuska",
-      href: "https://www.alltrails.com/trail/canada/alberta/mount-yamnuska-traverse-and-west-col-descent",
-    },
-    {
       label: "Mount Temple",
       href: "https://www.alltrails.com/trail/canada/alberta/mount-temple",
     },
@@ -79,8 +75,20 @@ export const MODALS = {
       href: "https://www.alltrails.com/trail/canada/alberta/east-end-of-rundle-eeor",
     },
     {
+      label: "Devil's Thumb",
+      href: "https://www.alltrails.com/trail/canada/alberta/devils-thumb-via-lake-agnes-trail",
+    },
+    {
+      label: "Mount Yamnuska",
+      href: "https://www.alltrails.com/trail/canada/alberta/mount-yamnuska-traverse-and-west-col-descent",
+    },
+    {
       label: "Tent Ridge Horseshoe",
       href: "https://www.alltrails.com/trail/canada/alberta/tent-ridge-horseshoe",
+    },
+    {
+      label: "Akamina Pass",
+      href: "https://www.alltrails.com/trail/canada/alberta/akamina-pass-and-wall-and-forum-lake-trail",
     },
     {
       label: "Sarrail Ridge",
@@ -93,14 +101,6 @@ export const MODALS = {
     {
       label: "Crypt Lake",
       href: "https://www.alltrails.com/trail/canada/alberta/crypt-lake-trail-loop",
-    },
-    {
-      label: "Mount Lipsett",
-      href: "https://www.alltrails.com/trail/canada/alberta/mount-lipsett",
-    },
-    {
-      label: "Devil's Thumb",
-      href: "https://www.alltrails.com/trail/canada/alberta/devils-thumb-via-lake-agnes-trail",
     },
   ],
   movies: [
