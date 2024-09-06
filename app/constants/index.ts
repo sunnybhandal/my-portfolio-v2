@@ -75,16 +75,8 @@ export const MODALS = {
       href: "https://www.alltrails.com/trail/canada/alberta/east-end-of-rundle-eeor",
     },
     {
-      label: "Devil's Thumb",
-      href: "https://www.alltrails.com/trail/canada/alberta/devils-thumb-via-lake-agnes-trail",
-    },
-    {
       label: "Mount Yamnuska",
       href: "https://www.alltrails.com/trail/canada/alberta/mount-yamnuska-traverse-and-west-col-descent",
-    },
-    {
-      label: "Tent Ridge Horseshoe",
-      href: "https://www.alltrails.com/trail/canada/alberta/tent-ridge-horseshoe",
     },
     {
       label: "Akamina Pass",
@@ -95,8 +87,16 @@ export const MODALS = {
       href: "https://www.alltrails.com/trail/canada/alberta/sarrail-ridge-via-rawson-lake-trail?u=i",
     },
     {
+      label: "Tent Ridge Horseshoe",
+      href: "https://www.alltrails.com/trail/canada/alberta/tent-ridge-horseshoe",
+    },
+    {
       label: "Wasootch Peak",
       href: "https://www.alltrails.com/trail/canada/alberta/wasootch-peak?search=true",
+    },
+    {
+      label: "Devil's Thumb",
+      href: "https://www.alltrails.com/trail/canada/alberta/devils-thumb-via-lake-agnes-trail",
     },
     {
       label: "Crypt Lake",

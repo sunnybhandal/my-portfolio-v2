@@ -15,7 +15,9 @@ export default function Home() {
           className="w-48 md:w-56 lg:w-64"
         />
         <h4 className="semiBold-24 mt-2 whitespace-nowrap">Sunny Bhandal</h4>
-        <p className="regular-18 whitespace-nowrap mt-2">Product Designer</p>
+        <p className="regular-18 whitespace-nowrap mt-2">
+          Solutions Engineer & Product Designer
+        </p>
         <Link
           href="https://www.linkedin.com/in/sunnybhandal/"
           rel="noopener noreferrer"
