@@ -39,7 +39,7 @@ const Experience = () => {
           <Image src="/ohmniLabs.svg" alt="Ohmni Logo" width={80} height={80} />
           <div className="flex flex-col w-full justify-end items-start">
             <h2 className="text-[#116D99] semiBold-20 lg:semiBold-22">
-              Solutions Engineer
+              Lead Solutions Engineer
             </h2>
             <div className="lg:flex w-full justify-between">
               <h4 className="medium-18">OhmniLabs</h4>
@@ -63,6 +63,14 @@ const Experience = () => {
           <li className="flex">
             <span className="mr-2 -mt-1 text-2xl text-[#89CFF0]">&#8226;</span>
             {EXPERIENCE.ohmniLabs.fourth}
+          </li>
+          <li className="flex">
+            <span className="mr-2 -mt-1 text-2xl text-[#89CFF0]">&#8226;</span>
+            {EXPERIENCE.ohmniLabs.fifth}
+          </li>
+          <li className="flex">
+            <span className="mr-2 -mt-1 text-2xl text-[#89CFF0]">&#8226;</span>
+            {EXPERIENCE.ohmniLabs.sixth}
           </li>
         </ul>
       </div>

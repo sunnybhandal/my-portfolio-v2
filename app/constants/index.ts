@@ -2,14 +2,14 @@
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
   { href: "/about", key: "about", label: "About" },
-  { href: "/portfolio", key: "portfolio", label: "Portfolio" },
+  // { href: "/portfolio", key: "portfolio", label: "Portfolio" },
   { href: "/experience", key: "experience ", label: "Experience " },
 ];
 
 // HOME SECTION
 export const BIO = {
-  p1: "I’m a 27 year old Solutions Engineer & Product Designer currently working in the Robotics industry. I realized my passion for UI/UX Design when working as a Software Developer for a Vancouver based startup. As someone who likes to understand all the processes involved in creating software, I would regularly meet with our product designer to understand their thought process when it came to designing new sections on our website. From here, I started designing projects for different ideas I had and this ignited my passion.",
-  p2: "My life trajectory eventually sent me to a Robotics startup located in California. With this company, UX Research became a main responsibility as I worked closely with the product and our customers. I would see how they interact with our interface and I would try to understand any pain points to develop a plan to resolve common user issues. Now I find myself eager to learn about the field of UI/UX Design and I’m looking forward to the many ideas I’ll bring to life.",
+  p1: "As the Lead Solutions Engineer at OhmniLabs, I specialize in driving the development of user-friendly products. By collaborating closely with our clients, I bring a unique perspective to product development through in-depth user research. My expertise lies in building strong, trusting relationships with clients, ensuring their confidence in our company and its solutions.",
+  p2: "Before transitioning to robotics, I held roles in software development and product design, where I developed a passion for creating easy-to-use software and optimizing the user experience.",
   quote:
     "“If you are not willing to learn, no one can help you. If you are determined to learn, no one can stop you.”—Zig Ziglar.",
 };
@@ -189,20 +189,24 @@ export const EXPERIENCE = {
   },
   ohmniLabs: {
     first:
-      "Effectively managed our robotics trial programs and delivered compelling product presentations to potential clients, resulting in revenue generation exceeding $1 million",
+      "Led our robotics trial programs and delivered compelling demos to prospective stakeholders, resulting in revenue generation exceeding $1 million",
     second:
-      "Engaged in research, design, and prototyping of new software features to develop a more seamless user experience, garnering an abundance of positive client feedback",
+      "Managed the customer journey from onboarding, product adoption, and expansion which resulted in over $200,000 in expansion revenue",
     third:
-      "Delivered exceptional customer support to our Healthcare clients, fostering long-lasting relationships that produced repeat business",
+      "Delivered exceptional customer support, building strong, long-term relationships and achieving a 100% client retention rate",
     fourth:
-      "Created a comprehensive array of content, encompassing documents, photos, and videos to streamline and enhance the support process",
+      "Engaged in research, design, and prototyping of new software features to develop a more seamless user experience, garnering an abundance of positive client feedback",
+    fifth:
+      "Created a comprehensive array of content, encompassing documents, photos, and videos to streamline and enhance the support and training process",
+    sixth:
+      "Collaborated with Engineering and Product to provide feedback and improve products",
   },
   simplyAsk: {
     first:
-      "Engineered frontend solutions using React.js to introduce software features, thereby amplifying runtime efficiency and elevating the user experience",
+      "Integrated AI chatbot APIs to streamline customer service requests, enhancing efficiency and ensuring timely responses to client inquiries",
     second:
-      "Executed code reviews and conducted comprehensive functionality tests for frontend features, ensuring seamless and successful deployments",
+      "Engineered frontend solutions using React.js to introduce software features, thereby amplifying runtime efficiency and elevating the user experience",
     third:
-      "Provided mentorship to team members to facilitate their familiarity and comprehension of the codebase, enabling them to make swift and valuable contributions",
+      "Executed code reviews and conducted comprehensive functionality tests for software features, ensuring seamless and successful deployments",
   },
 };
