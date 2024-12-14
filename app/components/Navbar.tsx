@@ -34,7 +34,7 @@ const Navbar = () => {
     <div
       className={`padding-navbar bg-main fixed py-2 w-screen z-20 ${
         direction == "down"
-          ? `transition-all transform border-b-2 border-[#116D99] shadow-md`
+          ? `transition-all transform border-b-2 border-[#89CFF0] shadow-md`
           : `border-none`
       }`}
     >
@@ -89,7 +89,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {openMenuModal && (
-          <div className="absolute pt-6 z-0 bg-[#efefef] border-b-2 border-[#116D99] top-[52px] left-0 w-full ">
+          <div className="absolute pt-6 z-0 bg-[#efefef] border-b-2 border-[#89CFF0] top-[52px] left-0 w-full ">
             <ul className="padding-navbar flex flex-col items-end">
               {NAV_LINKS.map((link) => (
                 <li className="flex">
