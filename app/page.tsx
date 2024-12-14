@@ -12,7 +12,7 @@ export default function Home() {
           alt="headshot"
           width={250}
           height={100}
-          className="w-48 md:w-56 lg:w-64"
+          className="w-56 md:w-56 lg:w-64"
         />
         <h4 className="semiBold-24 mt-2 whitespace-nowrap">Sunny Bhandal</h4>
         <p className="regular-18 whitespace-nowrap mt-2">
