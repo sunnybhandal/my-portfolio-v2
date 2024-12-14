@@ -8,6 +8,36 @@ const Experience = () => {
       <div className="flex flex-col items-center">
         <h2 className="bold-32 items-center">Experience</h2>
       </div>
+
+      <div>
+        <div className="flex gap-2 w-full">
+          <Image src="/symbotic.svg" alt="Ohmni Logo" width={80} height={80} />
+          <div className="flex flex-col w-full justify-end items-start">
+            <h2 className="text-[#116D99] semiBold-20 lg:semiBold-22">
+              Lead Solutions Engineer
+            </h2>
+            <div className="lg:flex w-full justify-between">
+              <h4 className="medium-18">Symbotic</h4>
+              <h4 className="medium-18">Dec 2024 - Present</h4>
+            </div>
+          </div>
+        </div>
+        <ul className="list-none mt-4 flex flex-col gap-4">
+          <li className="flex">
+            <span className="mr-2 -mt-1 text-2xl text-[#89CFF0]">&#8226;</span>
+            {EXPERIENCE.symbotic.first}
+          </li>
+          <li className="flex">
+            <span className="mr-2 -mt-1 text-2xl text-[#89CFF0]">&#8226;</span>
+            {EXPERIENCE.symbotic.second}
+          </li>
+          <li className="flex">
+            <span className="mr-2 -mt-1 text-2xl text-[#89CFF0]">&#8226;</span>
+            {EXPERIENCE.symbotic.third}
+          </li>
+        </ul>
+      </div>
+      <hr className="border-2 border-[#89CFF0] rounded-lg" />
       <div>
         <div className="flex gap-2 w-full">
           <Image src="/freelance.svg" alt="Ohmni Logo" width={80} height={80} />
@@ -39,11 +69,11 @@ const Experience = () => {
           <Image src="/ohmniLabs.svg" alt="Ohmni Logo" width={80} height={80} />
           <div className="flex flex-col w-full justify-end items-start">
             <h2 className="text-[#116D99] semiBold-20 lg:semiBold-22">
-              Lead Solutions Engineer
+              Senior Solutions Engineer
             </h2>
             <div className="lg:flex w-full justify-between">
               <h4 className="medium-18">OhmniLabs</h4>
-              <h4 className="medium-18">Sept 2022 - Present</h4>
+              <h4 className="medium-18">Sept 2022 - Dec 2024</h4>
             </div>
           </div>
         </div>
@@ -67,10 +97,6 @@ const Experience = () => {
           <li className="flex">
             <span className="mr-2 -mt-1 text-2xl text-[#89CFF0]">&#8226;</span>
             {EXPERIENCE.ohmniLabs.fifth}
-          </li>
-          <li className="flex">
-            <span className="mr-2 -mt-1 text-2xl text-[#89CFF0]">&#8226;</span>
-            {EXPERIENCE.ohmniLabs.sixth}
           </li>
         </ul>
       </div>

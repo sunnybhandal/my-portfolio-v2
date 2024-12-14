@@ -8,7 +8,7 @@ export const NAV_LINKS = [
 
 // HOME SECTION
 export const BIO = {
-  p1: "As the Lead Solutions Engineer at OhmniLabs, I specialize in driving the development of user-friendly products. By collaborating closely with our clients, I bring a unique perspective to product development through in-depth user research. My expertise lies in building strong, trusting relationships with clients, ensuring their confidence in our company and its solutions.",
+  p1: "As a Solutions Engineer, I specialize in driving the development of user-friendly products. By collaborating closely with our clients, I bring a unique perspective to product development through in-depth user research. My expertise lies in building strong, trusting relationships with clients, ensuring their confidence in our company and its solutions.",
   p2: "Before transitioning to robotics, I held roles in software development and product design, where I developed a passion for creating easy-to-use software and optimizing the user experience.",
   quote:
     "“If you are not willing to learn, no one can help you. If you are determined to learn, no one can stop you.”—Zig Ziglar.",
@@ -181,6 +181,14 @@ export const PORTFOLIO = {
 
 // EXPERIENCE SECTION
 export const EXPERIENCE = {
+  symbotic: {
+    first:
+      "Developed detailed product roadmaps using Agile methodologies to streamline development processes, resulting in increased team efficiency",
+    second:
+      "Orchestrated the end-to-end customer journey for the telehealth robotics team, resulting in outstanding customer reviews",
+    third:
+      "Leveraging Figma and UI/UX design principles, I effectively designed new features that enhanced the user experience, reducing support tickets by 30%",
+  },
   freelance: {
     first:
       "Led comprehensive efforts encompassing research, user story development, wireframing, prototyping, and design for the mobile view of an Event Registration app",
@@ -189,17 +197,15 @@ export const EXPERIENCE = {
   },
   ohmniLabs: {
     first:
-      "Led our robotics trial programs and delivered compelling demos to prospective stakeholders, resulting in revenue generation exceeding $1 million",
+      "Led our robotics trial programs and delivered compelling product demos to prospective stakeholders, resulting in revenue generation exceeding $1,000,000",
     second:
-      "Managed the customer journey from onboarding, product adoption, and expansion which resulted in over $200,000 in expansion revenue",
+      "Managed the customer journey from onboarding, product adoption, and expansion which resulted in over $300,000 in expansion revenue within one year",
     third:
-      "Delivered exceptional customer support, building strong, long-term relationships and achieving a 100% client retention rate",
+      "Delivered exceptional customer support, building strong, long-term relationships and achieving a 100% customer retention rate",
     fourth:
       "Engaged in research, design, and prototyping of new software features to develop a more seamless user experience, garnering an abundance of positive client feedback",
     fifth:
       "Created a comprehensive array of content, encompassing documents, photos, and videos to streamline and enhance the support and training process",
-    sixth:
-      "Collaborated with Engineering and Product to provide feedback and improve products",
   },
   simplyAsk: {
     first:
