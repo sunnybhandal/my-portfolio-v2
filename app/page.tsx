@@ -8,8 +8,8 @@ export default function Home() {
     <div className="max-container padding-container pt-20 lg:pt-0 flex flex-col lg:flex-row gap-8 lg:gap-4 lg:h-screen items-center justify-center">
       <div className="flex flex-col items-center w-[450px]">
         <Image
-          src="headshot.svg"
-          alt="headshot"
+          src="deuces.svg"
+          alt="deuces"
           width={250}
           height={100}
           className="w-56 md:w-56 lg:w-64"
