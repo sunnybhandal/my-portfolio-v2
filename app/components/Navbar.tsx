@@ -46,7 +46,7 @@ const Navbar = () => {
             setIsOpen(false);
           }}
         >
-          <Image src="/logo.svg" alt="logo" width={40} height={30} />
+          <Image src="/logo.svg" alt="logo" width={33} height={30} />
         </Link>
 
         <div className="hidden lg:flex gap-8 items-center">
