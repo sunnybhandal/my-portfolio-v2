@@ -8,7 +8,7 @@ export const NAV_LINKS = [
 
 // HOME SECTION
 export const BIO = {
-  p1: "As a Solutions Engineer, I specialize in orchestrating the end-to-end customer journey, delivering a seamless user experience that fosters client satisfaction and loyalty. By collaborating closely with our clients, I bring a unique perspective to product development through in-depth user research. I excel at cultivating strong, trusting relationships with clients, ensuring their confidence in our company and its solutions.",
+  p1: "As a Solutions Engineer, I specialize in orchestrating the end-to-end customer journey, delivering a seamless user experience that fosters client satisfaction and loyalty. I excel at cultivating strong, trusting relationships with clients, ensuring their confidence in our company and its solutions.",
   p2: "Before transitioning to robotics, I held roles in software development and product design, where I developed a passion for creating easy-to-use software and optimizing the user experience.",
   quote:
     "“If you are not willing to learn, no one can help you. If you are determined to learn, no one can stop you.”—Zig Ziglar.",

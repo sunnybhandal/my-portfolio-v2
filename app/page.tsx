@@ -16,7 +16,7 @@ export default function Home() {
         />
         <h4 className="semiBold-24 mt-2 whitespace-nowrap">Sunny Bhandal</h4>
         <p className="regular-18 whitespace-nowrap mt-2">
-          Solutions Engineer & Product Designer
+          Lead Solutions Engineer @ Symbotic
         </p>
         <Link
           href="https://www.linkedin.com/in/sunnybhandal/"

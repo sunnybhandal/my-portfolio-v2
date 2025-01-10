@@ -40,32 +40,6 @@ const Experience = () => {
       <hr className="border-2 border-[#89CFF0] rounded-lg" />
       <div>
         <div className="flex gap-2 w-full">
-          <Image src="/freelance.svg" alt="Ohmni Logo" width={80} height={80} />
-          <div className="flex flex-col w-full justify-end items-start">
-            <h2 className="text-[#116D99] semiBold-20 lg:semiBold-22">
-              Product Designer
-            </h2>
-            <div className="lg:flex w-full justify-between">
-              <h4 className="medium-18">Freelance</h4>
-              <h4 className="medium-18">Dec 2023 - Present</h4>
-            </div>
-          </div>
-        </div>
-        <ul className="list-none mt-4 flex flex-col gap-4">
-          <li className="flex">
-            <span className="mr-2 -mt-1 text-2xl text-[#89CFF0]">&#8226;</span>
-            {EXPERIENCE.freelance.first}
-          </li>
-          <li className="flex">
-            <span className="mr-2 -mt-1 text-2xl text-[#89CFF0]">&#8226;</span>
-            {EXPERIENCE.freelance.second}
-          </li>
-        </ul>
-      </div>
-      <hr className="border-2 border-[#89CFF0] rounded-lg" />
-
-      <div>
-        <div className="flex gap-2 w-full">
           <Image src="/ohmniLabs.svg" alt="Ohmni Logo" width={80} height={80} />
           <div className="flex flex-col w-full justify-end items-start">
             <h2 className="text-[#116D99] semiBold-20 lg:semiBold-22">
@@ -100,6 +74,32 @@ const Experience = () => {
           </li>
         </ul>
       </div>
+      <hr className="border-2 border-[#89CFF0] rounded-lg" />
+      <div>
+        <div className="flex gap-2 w-full">
+          <Image src="/freelance.svg" alt="Ohmni Logo" width={80} height={80} />
+          <div className="flex flex-col w-full justify-end items-start">
+            <h2 className="text-[#116D99] semiBold-20 lg:semiBold-22">
+              Product Designer
+            </h2>
+            <div className="lg:flex w-full justify-between">
+              <h4 className="medium-18">Freelance</h4>
+              <h4 className="medium-18">Dec 2023 - Feb 2024</h4>
+            </div>
+          </div>
+        </div>
+        <ul className="list-none mt-4 flex flex-col gap-4">
+          <li className="flex">
+            <span className="mr-2 -mt-1 text-2xl text-[#89CFF0]">&#8226;</span>
+            {EXPERIENCE.freelance.first}
+          </li>
+          <li className="flex">
+            <span className="mr-2 -mt-1 text-2xl text-[#89CFF0]">&#8226;</span>
+            {EXPERIENCE.freelance.second}
+          </li>
+        </ul>
+      </div>
+
       <hr className="border-2 border-[#89CFF0] rounded-lg" />
       <div>
         <div className="flex gap-2 w-full">
