@@ -71,20 +71,16 @@ export const MODALS = {
       href: "https://www.alltrails.com/trail/canada/alberta/cirque-peak-via-helen-lake-trail",
     },
     {
+      label: "Akamina Pass",
+      href: "https://www.alltrails.com/trail/canada/alberta/akamina-pass-and-wall-and-forum-lake-trail",
+    },
+    {
       label: "East End of Rundle",
       href: "https://www.alltrails.com/trail/canada/alberta/east-end-of-rundle-eeor",
     },
     {
       label: "Mount Yamnuska",
       href: "https://www.alltrails.com/trail/canada/alberta/mount-yamnuska-traverse-and-west-col-descent",
-    },
-    {
-      label: "Akamina Pass",
-      href: "https://www.alltrails.com/trail/canada/alberta/akamina-pass-and-wall-and-forum-lake-trail",
-    },
-    {
-      label: "Sarrail Ridge",
-      href: "https://www.alltrails.com/trail/canada/alberta/sarrail-ridge-via-rawson-lake-trail?u=i",
     },
     {
       label: "Tent Ridge Horseshoe",
@@ -99,8 +95,12 @@ export const MODALS = {
       href: "https://www.alltrails.com/trail/canada/alberta/devils-thumb-via-lake-agnes-trail",
     },
     {
-      label: "Crypt Lake",
-      href: "https://www.alltrails.com/trail/canada/alberta/crypt-lake-trail-loop",
+      label: "Mount Rundle",
+      href: "https://www.alltrails.com/trail/canada/alberta/mount-rundle-summit-trail",
+    },
+    {
+      label: "Cascade Mountain",
+      href: "https://www.alltrails.com/trail/canada/alberta/cascade-mountain--2",
     },
   ],
   movies: [
