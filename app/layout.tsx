@@ -4,7 +4,8 @@ import Navbar from "./components/Navbar";
 
 export const metadata: Metadata = {
   title: "Sunny Bhandal",
-  description: "Personal Portfolio Style Website",
+  description:
+    "Solutions Engineer Experienced in Designing User-Centered Applications",
 };
 
 export default function RootLayout({

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import { HIKING_PICS } from "../constants";
+import { SLIDER_PICS } from "../constants";
 
 const PictureSlider = () => {
   const [pictureState, setPictureState] = useState(1);
@@ -11,15 +11,12 @@ const PictureSlider = () => {
         <>
           <div className="relative">
             <Image
-              src={HIKING_PICS[0].file}
+              src={SLIDER_PICS[0].file}
               alt=""
               width={500}
               height={280}
               className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[600px] lg:max-w-[500px] xl:max-w-[600px]"
             />
-            <h4 className="absolute top-2 left-4 medium-16 md:medium-18">
-              {HIKING_PICS[0].label}
-            </h4>
           </div>
 
           <div className="flex gap-3 lg:gap-4">
@@ -42,15 +39,12 @@ const PictureSlider = () => {
         <>
           <div className="relative">
             <Image
-              src={HIKING_PICS[1].file}
+              src={SLIDER_PICS[1].file}
               alt=""
               width={500}
               height={280}
               className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[600px] lg:max-w-[500px] xl:max-w-[600px]"
             />
-            <h4 className="absolute top-2 left-4 medium-16 md:medium-18">
-              {HIKING_PICS[1].label}
-            </h4>
           </div>
           <div className="flex gap-3 lg:gap-4">
             <span
@@ -72,15 +66,12 @@ const PictureSlider = () => {
         <>
           <div className="relative">
             <Image
-              src={HIKING_PICS[2].file}
+              src={SLIDER_PICS[2].file}
               alt=""
               width={500}
               height={280}
               className="rounded-lg border-2 border-[#89CFF0] w-[365px] md:w-[600px] lg:max-w-[500px] xl:max-w-[600px]"
             />
-            <h4 className="absolute top-2 left-4 medium-16 md:medium-18">
-              {HIKING_PICS[2].label}
-            </h4>
           </div>
           <div className="flex gap-3 lg:gap-4">
             <span

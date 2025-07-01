@@ -1,6 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
-
 type ButtonProps = {
   title: string;
   icon?: string;
@@ -11,14 +8,13 @@ type ButtonProps = {
 const Button = ({ title, icon, variant, onClick }: ButtonProps) => {
   return (
     <button
-      className={`bg-[#89CFF0] shadow-md rounded-lg ${variant}`}
+      className={`bg-[#116D99] shadow-md rounded-md ${variant}`}
       type="button"
       onClick={onClick}
     >
-      <label className="medium-16 whitespace-nowrap cursor-pointer">
-        {title}
+      <label className="whitespace-nowrap cursor-pointer">
+        <p className="medium-16">{title}</p>
       </label>
-      {icon && <Image src={icon} alt={title} width={24} height={24} />}
     </button>
   );
 };
