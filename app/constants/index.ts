@@ -37,18 +37,18 @@ export const ABOUT = {
 export const SLIDER_PICS = [
   {
     id: 1,
+    label: "Weights",
+    file: "/gym.svg",
+  },
+  {
+    id: 2,
     label: "Mount Temple",
     file: "/temple.svg",
   },
   {
-    id: 2,
-    label: "Weights",
-    file: "/rundle.svg",
-  },
-  {
     id: 3,
     label: "Spikeball",
-    file: "/cascade.svg",
+    file: "/spikeball.svg",
   },
 ];
 
@@ -64,11 +64,13 @@ export const PORTFOLIO = {
 export const EXPERIENCE = {
   symbotic: {
     first:
-      "Developed detailed product roadmaps using Agile methodologies to streamline development processes, resulting in increased team efficiency",
+      "Initiate and lead the design of software specifications to enhance usability, streamline error resolution, and reduce support tickets by 70%",
     second:
-      "Orchestrated the end-to-end customer journey for the telehealth robotics team, resulting in outstanding customer reviews",
+      "Orchestrate the end-to-end customer journey for our telehealth robotics customers, fostering strong relationships and driving product expansion",
     third:
-      "Leveraging Figma and UI/UX design principles, I effectively designed new features that enhanced the user experience, reducing support tickets by 30%",
+      "Lead the implementation of telehealth robotics at customer facilities, ensuring seamless platform adoption and operational efficiency",
+    fourth:
+      "Develop detailed product roadmaps using Agile methodologies to streamline development processes, resulting in increased team efficiency",
   },
   freelance: {
     first:
@@ -78,15 +80,15 @@ export const EXPERIENCE = {
   },
   ohmniLabs: {
     first:
-      "Led our robotics trial programs and delivered compelling product demos to prospective stakeholders, resulting in revenue generation exceeding $1,000,000",
+      "Led all implementation projects and delivered compelling product demos to prospective stakeholders, resulting in revenue generation exceeding $1,000,000",
     second:
-      "Managed the customer journey from onboarding, product adoption, and expansion which resulted in over $300,000 in expansion revenue within one year",
+      "Managed the customer journey through onboarding, product adoption, and expansion which resulted in over $300,000 in expansion revenue",
     third:
-      "Delivered exceptional customer support, building strong, long-term relationships and achieving a 100% customer retention rate",
+      "Delivered exceptional customer support, nurturing long-term customer engagement and achieving a 100% customer retention rate over 2 years",
     fourth:
-      "Engaged in research, design, and prototyping of new software features to develop a more seamless user experience, garnering an abundance of positive client feedback",
+      "Designed and implemented new features using Figma and UI/UX principles, enhancing user experience and reducing support tickets by 30%",
     fifth:
-      "Created a comprehensive array of content, encompassing documents, photos, and videos to streamline and enhance the support and training process",
+      "Created comprehensive support and training content, including documentation, photos, and videos",
   },
   simplyAsk: {
     first:

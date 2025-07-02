@@ -1,15 +1,10 @@
 "use client";
 import Image from "next/image";
-import React, { useState } from "react";
+import React from "react";
 import PictureSlider from "../components/PictureSlider";
 import { ABOUT } from "../constants";
 
 const About = () => {
-  const [hikingModalOpen, setHikingModalOpen] = useState(false);
-  const [healthModalOpen, setHealthModalOpen] = useState(false);
-  const [moviesModalOpen, setMoviesModalOpen] = useState(false);
-  const [showsModalOpen, setShowsModalOpen] = useState(false);
-
   return (
     <section className="max-container padding-container pt-16 lg:pt-20 mb-10">
       <div className="flex flex-col items-center">
@@ -42,7 +37,7 @@ const About = () => {
 
       {/* Movies & TV Shows */}
       <div>
-        <div className="flex flex-col lg:flex-row justify-between mt-16 gap-6 lg:gap-8">
+        <div className="flex flex-col lg:flex-row items-center justify-between mt-16 gap-6 lg:gap-8">
           <Image
             src="/interstellar.svg"
             alt="working out"

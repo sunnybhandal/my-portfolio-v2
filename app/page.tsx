@@ -37,7 +37,7 @@ export default function Home() {
   };
   return (
     <div
-      className={`max-container padding-container pt-20 lg:pt-0 flex flex-col lg:flex-row gap-8 lg:gap-4 lg:h-screen items-center justify-center transition-all duration-1000 ${
+      className={`max-container padding-container pt-20 lg:pt-18 flex flex-col lg:flex-row gap-8 lg:gap-4 lg:h-screen items-center justify-center transition-all duration-1000 ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
       }`}
     >
@@ -48,6 +48,16 @@ export default function Home() {
             Sunny Bhandal
           </span>
         </h1>
+        <p className="semiBold-22 text-blue-600 whitespace-nowrap mt-1">
+          Lead Solutions Engineer @{" "}
+          <Link
+            href="https://ir.symbotic.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <span className="text-green-500">Symbotic</span>
+          </Link>
+        </p>
 
         <p className="regular-18">{BIO.p1}</p>
         <p className="regular-18">{BIO.p2}</p>
@@ -71,12 +81,8 @@ export default function Home() {
           alt="deuces"
           width={250}
           height={100}
-          className="w-56 md:w-56 lg:w-80"
+          className="w-64 lg:w-80"
         />
-
-        <p className="medium-20 whitespace-nowrap mt-4">
-          Lead Solutions Engineer @ Symbotic
-        </p>
       </div>
     </div>
   );

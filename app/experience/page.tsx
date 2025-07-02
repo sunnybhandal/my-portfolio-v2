@@ -35,6 +35,10 @@ const Experience = () => {
             <span className="mr-2 -mt-1 text-2xl text-[#89CFF0]">&#8226;</span>
             {EXPERIENCE.symbotic.third}
           </li>
+          <li className="flex">
+            <span className="mr-2 -mt-1 text-2xl text-[#89CFF0]">&#8226;</span>
+            {EXPERIENCE.symbotic.fourth}
+          </li>
         </ul>
       </div>
       <hr className="border-2 border-[#89CFF0] rounded-lg" />
