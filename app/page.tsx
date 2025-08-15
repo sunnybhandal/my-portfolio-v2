@@ -48,7 +48,7 @@ export default function Home() {
             Sunny Bhandal
           </span>
         </h1>
-        <p className="semiBold-22 text-blue-600 whitespace-nowrap mt-1">
+        <p className="semiBold-22 text-blue-600 whitespace-normal mt-1">
           Lead Solutions Engineer @{" "}
           <Link
             href="https://ir.symbotic.com/"
