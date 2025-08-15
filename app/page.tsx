@@ -41,7 +41,7 @@ export default function Home() {
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
       }`}
     >
-      <div className="flex flex-col gap-4 lg:w-[600px] pb-2 lg:pb-0">
+      <div className="flex flex-col gap-4 w-full whitespace-normal break-words lg:w-[600px] pb-2 lg:pb-0">
         <h1 className="text-4xl lg:text-6xl font-bold text-slate-900 leading-tight mb-0 md:mb-2">
           Hi, I'm{" "}
           <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent whitespace-nowrap">
